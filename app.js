@@ -323,9 +323,15 @@ const App = {
 
             // 18
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "24 Kilograms ",
+                author: "Emma Nash",
+                description: `How do you cram your entire life into one suitcase, weighing no more than 24 kilograms? This piece is a 
+                            personal reflection on the author's travel and transition to Canada from Aotearoa (New Zealand), as an 
+                            exciting but fast and overwhelming experience. The presentation of an expansive range of photography and 
+                            videography, shot in both countries, juxtaposes a small number of personal belongings brought with the author. 
+                            Using these objects of signifance as motif, alongside quick, driving changes in pace, the piece aims brings 
+                            light to the unsettling nature of settling in a new place, while exploring themes of nostalgia, anxiety, 
+                            and eventual peace and acceptance.`,
                 xButton: "60%",
                 yButton: "62%",
                 wButton: "30%",
