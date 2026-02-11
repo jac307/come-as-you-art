@@ -161,9 +161,18 @@ const App = {
 
              // 9
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "Memories Fading into the Abyss",
+                author: "Lorenzo Rillo",
+                description: `Memories Fading into the Abyss explores childhood memory as something 
+                            that dissolves over time rather than remaining present. Through analogue 
+                            material transformation, such as childhood VHS tapes re-recorded off of 
+                            a TV screen. Also photographs re-recorded using scanning, and then burned. 
+                            Creating physical alteration, allowing parts of the images to become badly 
+                            damaged like fragmented memories. The work reflects on how early life is 
+                            often remembered through photos and videos instead of direct experience, 
+                            creating distance between lived memory and recorded evidence. The audience 
+                            is invited to experience memory not as a clear record, but as something 
+                            dissolving into absence.`,
                 xButton: "20%",
                 yButton: "37%",
                 wButton: "37%",
@@ -172,9 +181,15 @@ const App = {
 
             // 10
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "Curly Hair",
+                author: "Jitong Li",
+                description: `As an East Asian girl, having curly hair was one of my defining features 
+                            when most people around me had straight hair. When I was young, I didn't realize what it 
+                            brought to me, but during my adolescence, this characteristic also meant a certain degree 
+                            of uniqueness. This distinctiveness brought burdens and some troubles I couldn't resolve 
+                            at the time. However, during my growth process, I chose to adjust my way of coexisting 
+                            with it in a gentler manner. Now, I've gradually made peace with my hair. I understand 
+                            everyone's differences and have begun to respect each person's unique traits.`,
                 xButton: "60%",
                 yButton: "37%",
                 wButton: "30%",
@@ -184,9 +199,16 @@ const App = {
 
              // 11
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "JAWANI",
+                author: "Jovan Singh",
+                description: `The name Jovan is derived from the Panjabi word jawani, meaning youth and the 
+                            prime of life. This documentary traces my personal journey growing up Canadian-Panjabi 
+                            and learning how to navigate and reconcile my queer identity within family, culture, 
+                            religion, and expectation. Drawing from childhood archives alongside present-day 
+                            footage, the film reflects on early moments of self-expression and becoming. Through 
+                            poetic voiceover, JAWANI explores identity as layered and unfinished. Rather than 
+                            offering a clear resolution, the documentary invites viewers to sit with ambiguity 
+                            and complexity of growing into oneself.`,
                 xButton: "15%",
                 yButton: "46%",
                 wButton: "40%",
@@ -195,9 +217,18 @@ const App = {
 
             // 12
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "Love you, Love me.",
+                author: "Jiaxin Chen",
+                description: `This documentary explores the emotional power of idols and how that power shapes personal 
+                            growth. Growing up in a family where love was rarely felt, I found comfort and strength in 
+                            a group of idols who were energetic, positive and inspiring. Their presence brought light 
+                            into a dark time in my life, gave me direction and helped me feel the power of love. The 
+                            documentary follows my journey from admiring them as a child to meeting them in person at a 
+                            concert ten years later. By traveling to the city where they lived and grew up and walking 
+                            through places connected to their path, the documentary shows how the emotional bond between 
+                            idols and fans can feel distant yet deeply connected. Through them, I learned how to understand 
+                            myself, make peace with my past and find the courage to move forward. Loving them also taught 
+                            me how to love myself.`,
                 xButton: "60%",
                 yButton: "46%",
                 wButton: "30%",
@@ -206,9 +237,20 @@ const App = {
 
             // 13
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "Somewhere Between Languages",
+                author: "Jinni Chi",
+                description: `Somewhere Between Languages is an autobiographical documentary that reflects on
+                            growing up across different languages and cultural environments. Raised in a bilingual
+                            household, the artist learned early that language is not only a way to communicate, but also
+                            a way to adapt and fit in. Over time, this process of adjustment shaped how she speaks,
+                            listens, and stays silent.
+                            Using personal archival materials such as childhood photographs and family images, the
+                            documentary traces moments of transition from early life to studying abroad. Analogue
+                            media processes, including scanning and CRT re-recording, are used to translate these
+                            memories across formats. Through distortion, repetition, and material texture, the work
+                            mirrors how memories and identities are filtered over time. Rather than focusing on
+                            migration itself, the project examines the subtle cost of constant adaptation and the ongoing
+                            search for belonging without self-censorship.`,
                 xButton: "15%",
                 yButton: "54%",
                 wButton: "40%",
@@ -217,9 +259,18 @@ const App = {
 
             // 14
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "A Letter to Big Me",
+                author: "Lara Sansoya",
+                description: `A Letter to Big Me is a reflective short auto-biographical documentary exploring identity, 
+                            memory, and the evolving relationship we have with ourselves. Built around a personal letter
+                            written years ago, the film follows the experience of revisiting younger hopes, fears, and 
+                            promises through the lens of the present. Using handwritten text, intimate narration, and visual
+                            fragments, the project captures the quiet distance between who we were and who we are becoming. 
+                            Rather than offering clear answers, the film embraces uncertainty, presenting identity as
+                            something layered, and continually unfolding. The act of revisiting the letter becomes an opening 
+                            for the present, as new words are written toward an unknown future, honoring the space between 
+                            past and present selves. At its heart, the film is an act of compassion toward the self: a reminder 
+                            that every version of us is still learning, still trying, and still worthy of becoming.`,
                 xButton: "60%",
                 yButton: "54%",
                 wButton: "30%",
