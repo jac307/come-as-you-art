@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/vuetify@3.x/dist/vuetify.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@7.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vuetify@3.x/dist/vuetify.min.js"></script>
+    <script src="app.js" defer></script>
+
+    <title>Come As You Art</title>
+</head>
+
+<body>
+    <div id="app">
+        <v-app>
+            <v-main>
+<!-- 
+            <v-app-bar color="black">
+                Instructions: ...
+
+            </v-app-bar> -->
+
+
+                <v-btn v-for="project in projects" :key="project.title" @click="toggleDialog(project)"
+                    style="position: absolute; z-index:100;"
+                    :style="{left:project.xButton, top:project.yButton, width: project.wButton, height: project.hButton}"
+                    color="white"></v-btn>
+
+                <v-dialog v-model="showDialog" style=" opacity: 0.9;" color="transparent">
+                    <v-card>
+                        <v-card-actions>
+                            <v-btn @click="showDialog = false" icon="mdi-close-circle-outline"></v-btn>
+                        </v-card-actions>
+
+                        <v-card-title>
+                            {{ selectedProject.title }} 
+                        </v-card-title>
+
+                        <v-card-subtitle>
+                            <b>Author:</b> {{selectedProject.author}}
+                        </v-card-subtitle>
+
+                        <v-card-text>
+                            {{selectedProject.description}}
+                        </v-card-text>
+                    </v-card>
+                </v-dialog>
+
+                <v-img src="web-background.png" @click="findCoordinates"></v-img>
+            </v-main>
+        </v-app>
+    </div>
+
+</body>
+
+</html>
