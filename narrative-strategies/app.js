@@ -379,9 +379,11 @@ const App = {
 
             // 21
             {
-                title: "",
-                author: "Andrew",
-                description: ``,
+                title: "Thanks",
+                author: "Andrew Marmolejo",
+                description: `My project is about sharing a story that changed my life forever. It’s a tale that took a 
+                            completely different turn from my journey from the United States with my parents, who were 
+                            undocumented, to Canada.`,
                 xButton: "8%",
                 yButton: "87.5%",
                 wButton: "47%",
