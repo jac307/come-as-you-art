@@ -5,10 +5,8 @@ const vuetify = createVuetify();
 
 const App = {
     setup() {
-  
-
         return {
-         
+
 
         }
     }
