@@ -1,1 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/vuetify@3.x/dist/vuetify.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/@mdi/font@7.x/css/materialdesignicons.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vuetify@3.x/dist/vuetify.min.js"></script>
+  <script src="app.js" defer></script>
+
+  <title>Come As You Art</title>
+</head>
+<style>
+  .map-container {
+    position: relative;
+    width: 100%;
+    background-image: url('imgs/desktop-bd.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .btn {
+     /* background-image: url('imgs/01.png'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+  }
+</style>
+
+<body>
+  <div id="app">
+    <v-app>
+      <v-main class="map-container">
+        
+            <v-app-bar color="black">
+                Instructions: ...
+
+            </v-app-bar>
+
+        <v-container>
+          <!-- <v-img src="imgs/desktop-bd.png" @click="findCoordinates"></v-img> -->
+          <v-row>
+            <v-col v-for="project in projects" :key="project.title" cols="6">
+              <v-btn width="100%" height="20vw" 
+              :style="{backgroundImage: `url(${project.thumbnail})`}"
+              class="btn" @click="toggleDialog(project)" color="white"></v-btn>
+            </v-col>
+          </v-row>
+        </v-container>
+
+
+        <v-dialog v-model="showDialog" style=" opacity: 0.9;" color="transparent">
+          <v-card>
+            <v-card-actions>
+              <v-btn @click="showDialog = false" icon="mdi-close-circle-outline"></v-btn>
+            </v-card-actions>
+
+            <v-card-title>
+              {{ selectedProject.title }}
+            </v-card-title>
+
+            <v-card-subtitle>
+              <b>Author:</b> {{selectedProject.author}}
+            </v-card-subtitle>
+
+            <v-card-text>
+              {{selectedProject.description}}
+            </v-card-text>
+          </v-card>
+        </v-dialog>
+
+      </v-main>
+    </v-app>
+  </div>
+
+</body>
+
+</html>
