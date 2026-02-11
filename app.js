@@ -279,9 +279,10 @@ const App = {
 
             // 15
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "My Mothers Daughter",
+                author: "Jamila Andriesa",
+                description: `My film explores the relationship between growing up with an abusive mom and performance. It shows 
+                            the connection between invisibility and eccentricity.`,
                 xButton: "15%",
                 yButton: "62%",
                 wButton: "40%",
@@ -290,9 +291,13 @@ const App = {
 
             // 16
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "My Girl",
+                author: "James Schütte",
+                description: `In an attempt to understand the life of a beloved companion, I dissect the knowledge and memories 
+                            that I have of her. My Corgi manifests differently through the lenses of philosophy, science, and 
+                            emotion, leaving no clear path for closure. Through a combination of archived photos and videos, 
+                            3D animation, and video editing, I do my best to bring the viewer into a world where existence without 
+                            purpose is redundant, yet purpose without existence is nothing at all.`,
                 xButton: "60%",
                 yButton: "70%",
                 wButton: "30%",
@@ -302,9 +307,14 @@ const App = {
 
               // 17
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "Diary of a creative",
+                author: "Eniola Olawale-Yusuf",
+                description: `The documentary is a reflective narration of the transformation and the growth of an artist. It goes 
+                            back to the childhood moments and key pivotal moments to support the narration of what has contributed 
+                            to make them fall in love with the art of creating. It uses an intimate first-person narrative perspective 
+                            to trace my journey as an artist who discovered her creative identity gradually through lived experiences 
+                            and memorable connections. It highlights elements from the world that has weaved itself in the exploration 
+                            of identity through art, inviting the viewers to see the mind of a creative through her lens.`,
                 xButton: "15%",
                 yButton: "70%",
                 wButton: "40%",
@@ -325,9 +335,19 @@ const App = {
 
               // 19
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "Tonight, Just Us",
+                author: "Serena Lei",
+                description: `My early experiences served as the inspiration for this short film. Both of my parents were very busy 
+                            with their jobs when I was a small child, so I spent a lot of my early years alone. Instead of disagreements, 
+                            their absence was characterized by silence, a stillness that grew accustomed with time. I discovered a 
+                            teddy bear one day. It became my most significant friend after that. I started talking to this bear as 
+                            though it were alive on the days when my parents weren't there and I had no one to talk to. I opened up to 
+                            it about everything, including my worries, little everyday discoveries, and secrets I wasn't yet ready to 
+                            discuss with grownups. Over time, this bear became more than just a toy. It turned into a quiet mirror that 
+                            was like a second me, enabling me to organize my inner world and externalize my feelings. These made-up 
+                            dialogues taught me how to deal with loneliness, self-soothe, and endure emotional isolation. The teddy bear 
+                            served as a witness and a healer, assisting me in developing my sense of self while I was cut off from other 
+                            people.`,
                 xButton: "12%",
                 yButton: "79%",
                 wButton: "40%",
@@ -336,9 +356,15 @@ const App = {
 
             // 20
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "Beside Me",
+                author: "Xingguo Li",
+                description: `I chose to create this documentary to share how I relate to my family and how my personality
+                            gradually took shape within these relationships. By revisiting moments from childhood, I began
+                            to recognize how ordinary, often unnoticed experiences quietly influenced the way I learned to
+                            feel, observe, and respond to others. This documentary uses childhood memory as its starting 
+                            point to explore how emotional awareness and self-identity develop over time. Through family 
+                            photographs and home videos, the work reflects on moments that once felt simple or playful and 
+                            reconsiders the meaning they carry when viewed from the present.`,
                 xButton: "60%",
                 yButton: "79%",
                 wButton: "30%",
