@@ -8,49 +8,50 @@
     <link href="https://cdn.jsdelivr.net/npm/@mdi/font@7.x/css/materialdesignicons.min.css" rel="stylesheet">
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vuetify@3.x/dist/vuetify.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Caveat:wght@400..700&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Galada&family=Kode+Mono:wght@400..700&family=Noto+Music&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <script src="app.js" defer></script>
 
     <title>Come As You Art</title>
 </head>
+<style>
+    .main-background {
+        position: relative;
+        width: 100%;
+        background-image: url('homepage.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        font-family: "Bungee Inline", sans-serif;
+        color: white;
+    }
+</style>
 
 <body>
     <div id="app">
         <v-app>
-            <v-main>
-<!-- 
-            <v-app-bar color="black">
-                Instructions: ...
+            <v-main class="main-background">
+                <v-container>
 
-            </v-app-bar> -->
+                    <div class="d-flex flex-column align-center">
+                        <h1>COME AS YOU ART</h1>
+                        <h2>Exhibition</h2>
+                    </div>
+                    <p>Come As You Art invites viewers into a shared space where personal histories, memories, and
+                        identities are expressed across media. Through archival materials and self-reflective works, the
+                        exhibition treats storytelling as a gathering. Casual, intimate, and open to interpretation.</p>
 
-
-                <v-btn v-for="project in projects" :key="project.title" @click="toggleDialog(project)"
-                    style="position: absolute; z-index:100;"
-                    :style="{left:project.xButton, top:project.yButton, width: project.wButton, height: project.hButton}"
-                    color="transparent"></v-btn>
-
-                <v-dialog v-model="showDialog" style=" opacity: 0.9;" color="transparent">
-                    <v-card>
-                        <v-card-actions>
-                            <v-btn @click="showDialog = false" icon="mdi-close-circle-outline"></v-btn>
-                        </v-card-actions>
-
-                        <v-card-title>
-                            {{ selectedProject.title }} 
-                        </v-card-title>
-
-                        <v-card-subtitle>
-                            <b>Author:</b> {{selectedProject.author}}
-                        </v-card-subtitle>
-
-                        <v-card-text>
-                            {{selectedProject.description}}
-                        </v-card-text>
-                    </v-card>
-                </v-dialog>
-
-                <v-img src="web-background.png" @click="findCoordinates"></v-img>
+                    <div class="d-flex flex-column my-7 align-center">
+                        <v-btn href="time-based/index.html">MEDIAART 3IO3</v-btn>
+                        <v-btn href="iarts3ba3/index.html">IARTS 3BA3</v-btn>
+                        <v-btn href="narrative-strategies/index.html">MEDIAART 2B03</v-btn>
+                    </div>
+                </v-container>
             </v-main>
+
         </v-app>
     </div>
 
