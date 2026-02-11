@@ -27,7 +27,7 @@
                 <v-btn v-for="project in projects" :key="project.title" @click="toggleDialog(project)"
                     style="position: absolute; z-index:100;"
                     :style="{left:project.xButton, top:project.yButton, width: project.wButton, height: project.hButton}"
-                    color="white"></v-btn>
+                    color="transparent"></v-btn>
 
                 <v-dialog v-model="showDialog" style=" opacity: 0.9;" color="transparent">
                     <v-card>

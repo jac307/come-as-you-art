@@ -84,6 +84,186 @@ const App = {
                 hButton: "5%"
             },
 
+            // 7
+            {
+                title: "",
+                author: "",
+                description: ``,
+                xButton: "16%",
+                yButton: "29%",
+                wButton: "40%",
+                hButton: "5%"
+            },
+
+            // 8
+            {
+                title: "",
+                author: "",
+                description: ``,
+                xButton: "60%",
+                yButton: "29%",
+                wButton: "30%",
+                hButton: "5%"
+            },
+
+             // 9
+            {
+                title: "",
+                author: "",
+                description: ``,
+                xButton: "20%",
+                yButton: "37%",
+                wButton: "37%",
+                hButton: "5%"
+            },
+
+            // 10
+            {
+                title: "",
+                author: "",
+                description: ``,
+                xButton: "60%",
+                yButton: "37%",
+                wButton: "30%",
+                hButton: "5%"
+            },
+
+
+             // 11
+            {
+                title: "",
+                author: "",
+                description: ``,
+                xButton: "15%",
+                yButton: "46%",
+                wButton: "40%",
+                hButton: "5%"
+            },
+
+            // 12
+            {
+                title: "",
+                author: "",
+                description: ``,
+                xButton: "60%",
+                yButton: "46%",
+                wButton: "30%",
+                hButton: "5%"
+            },
+
+            // 13
+            {
+                title: "",
+                author: "",
+                description: ``,
+                xButton: "15%",
+                yButton: "54%",
+                wButton: "40%",
+                hButton: "5%"
+            },
+
+            // 14
+            {
+                title: "",
+                author: "",
+                description: ``,
+                xButton: "60%",
+                yButton: "54%",
+                wButton: "30%",
+                hButton: "5%"
+            },
+
+            // 15
+            {
+                title: "",
+                author: "",
+                description: ``,
+                xButton: "15%",
+                yButton: "62%",
+                wButton: "40%",
+                hButton: "5%"
+            },
+
+            // 16
+            {
+                title: "",
+                author: "",
+                description: ``,
+                xButton: "60%",
+                yButton: "70%",
+                wButton: "30%",
+                hButton: "6%"
+            },
+
+
+              // 17
+            {
+                title: "",
+                author: "",
+                description: ``,
+                xButton: "15%",
+                yButton: "70%",
+                wButton: "40%",
+                hButton: "6%"
+            },
+
+            // 18
+            {
+                title: "",
+                author: "",
+                description: ``,
+                xButton: "60%",
+                yButton: "62%",
+                wButton: "30%",
+                hButton: "5%"
+            },
+
+
+              // 19
+            {
+                title: "",
+                author: "",
+                description: ``,
+                xButton: "12%",
+                yButton: "79%",
+                wButton: "40%",
+                hButton: "6%"
+            },
+
+            // 20
+            {
+                title: "",
+                author: "",
+                description: ``,
+                xButton: "60%",
+                yButton: "79%",
+                wButton: "30%",
+                hButton: "5%"
+            },
+
+            // 21
+            {
+                title: "",
+                author: "",
+                description: ``,
+                xButton: "8%",
+                yButton: "87.5%",
+                wButton: "47%",
+                hButton: "6%"
+            },
+
+            // 22
+            {
+                title: "",
+                author: "",
+                description: ``,
+                xButton: "60%",
+                yButton: "87.5%",
+                wButton: "30%",
+                hButton: "6.5%"
+            },
+
+            
         ]
 
         function toggleDialog(project) {
