@@ -13,8 +13,8 @@ const App = {
             {
                 title: "Nesting",
                 author: "Mara Sanders",
-                description: `Watercolour on paper, fabric, thread, graphite on paper. 13" x 2" x 10". <br> 
-                            To reflect on the idea of a 'time based' narrative, 
+                description: `Watercolour on paper, fabric, thread, graphite on paper / 13" x 2" x 10" 
+                            ——— To reflect on the idea of a 'time based' narrative, 
                             I wanted to look  at my own artistic practice and use of media. Knitting, sewing, and watercolour 
                             paintings are what began my art practice early in my childhood, and have been constant materials 
                             I have reached for in the years since. By integrating these mediums, I wanted to illustrate how I am 
@@ -27,8 +27,8 @@ const App = {
             {
                 title: "Withered",
                 author: "Bronte Mayot",
-                description: `Multimedia work containing dried-up rose metals, digital illustrations on watercolour paper. 8.5 x 11. 
-                            This work is inspired by the concepts of decay and death, through the imagery of flowers as 
+                description: `Multimedia work containing dried-up rose metals, digital illustrations on watercolour paper / 8.5 x 11 
+                            ——— This work is inspired by the concepts of decay and death, through the imagery of flowers as 
                             storytellers to symbolize the passage of time.`,
                 thumbnail: "imgs/02.png"
             },
@@ -46,8 +46,8 @@ const App = {
             {
                 title: "Blue Gill’s Descent - Journal #2",
                 author: "Rowan van Oosten",
-                description: `Ink on paper. 15cm x 25cm. 
-                            My work is inspired by handmade research journals. It explores the fears and feelings of a scientist, 
+                description: `Ink on paper / 15cm x 25cm 
+                            ——— My work is inspired by handmade research journals. It explores the fears and feelings of a scientist, 
                             Blue Gills throughout a underwater ecological disaster with a supernatural twist.`,
                 thumbnail: "imgs/04.png"
             },
@@ -58,7 +58,7 @@ const App = {
                 title: "You need to wake up Kevin",
                 author: "Kevin Wu",
                 description: `I used the color markers to color it. And then made a book by folding the paper. Then put it in the box. 
-                            My work was inspired by the fact that I slept for a whole day last week and realized how quickly time passes. I need to cherish time . I created this 
+                            ——— My work was inspired by the fact that I slept for a whole day last week and realized how quickly time passes. I need to cherish time . I created this 
                             book made up of ancient Chinese clocks and Western clock numbers.`,
                 thumbnail: "imgs/05.png"
             },
