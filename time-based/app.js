@@ -9,7 +9,18 @@ const App = {
                 const showIntroDialog = ref(true)
         const selectedProject = ref({}); // Holds the clicked project's data
         const projects = [
+
             // 1
+            {
+                title: "Countdown",
+                author: "Alaura Heikoop",
+                description: `For this project we focused on taking black and white photographs. I thought it would be fun to see how many numbers I could find 
+                            around campus in the amount of time we were given. My goal was to find them in places where they were single, not grouped within other 
+                            numbers, and I ended up finding numbers 1 to 11 and arranged them to count down to the end of the video.`,
+                thumbnail: "imgs/33.png"
+            },
+            
+            // 2
             {
                 title: "Leaving Class",
                 author: "Aliyah Muto",
@@ -19,7 +30,7 @@ const App = {
                 thumbnail: "imgs/01.png"
             },
 
-            // 2
+            // 3
 
             {
                 title: "A not so long break",
@@ -33,7 +44,7 @@ const App = {
                 thumbnail: "imgs/02.png"
             },
 
-            // 3
+            // 4
             {
                 title: "Variations of Water",
                 author: "Brooke Shelley",
@@ -49,7 +60,7 @@ const App = {
                 thumbnail: "imgs/03.png"
             },
 
-            // 4
+            // 5
             {
                 title: "Noisy Places",
                 author: "Caidence Amartey.",
@@ -64,7 +75,7 @@ const App = {
             },
 
 
-            // 5
+            // 6
             {
                 title: "Signs of Presence",
                 author: "Xiaoqian Wen",
@@ -76,7 +87,7 @@ const App = {
                 thumbnail: "imgs/05.png"
             },
 
-            // 6
+            // 7
             {
                 title: "accretion",
                 author: "Charlotte Payne",
@@ -91,7 +102,7 @@ const App = {
                 thumbnail: "imgs/06.png"
             },
 
-            // 7
+            // 8
             {
                 title: "The Peek 觀𥦬日記",
                 author: "Charlotte Wong",
@@ -103,7 +114,7 @@ const App = {
                 thumbnail: "imgs/07.png"
             },
 
-            // 8
+            // 9
             {
                 title: "Frozen in Time",
                 author: "Christian F Downey-Acevedo",
@@ -114,7 +125,19 @@ const App = {
                 thumbnail: "imgs/08.png"
             },
 
-             // 9
+            // 10
+            {
+                title: "People and Places",
+                author: "Cole McNally",
+                description: `This photo best captures what I wanted the shoot to be, a representation of my fascination with looking 
+                            into windows as I pass. I like to feel like a spectator of people and the world, in some way separate and 
+                            completely innocuous. This is why I really like my poor attempt at “blending in” with the plants in the 
+                            reflection, and the glimpse you get of the people inside. If I had more time and planning, I would have liked 
+                            to have all ten of my photos be this conceptual.`,
+                thumbnail: "imgs/34.png"
+            },
+
+             // 11
             {
                 title: "Caught in Passing",
                 author: "Damian Boukhers",
@@ -126,7 +149,18 @@ const App = {
                 thumbnail: "imgs/09.png"
             },
 
-            // 10
+            // 12
+            {
+                title: "Busy, Busy",
+                author: "Ella Graham",
+                description: `“Busy, Busy” is a photoshoot that consists of those going through their day living their busy lives. As the day goes on the pictures get 
+                            more distorted to showcase how hard it can be to focus on everything around us. Sometimes we can only narrow in on a goal or we move so 
+                            fast the days start to blur. The music is chosen to reflect a leisurely pace contrasting the movement of the photos. A soft effect for 
+                            the edited photos is chosen to keep it light and breezy compared to a more hardcore contrast to add to the effect of consistent flow.`,
+                thumbnail: "imgs/40.png"
+            },
+
+            // 13
             {
                 title: "Blown Fuse",
                 author: "Emaris Cruz-Sanchez",
@@ -139,7 +173,7 @@ const App = {
             },
 
 
-             // 11
+             // 14
             {
                 title: "DON’T BLINK",
                 author: "Eniola Olawale-Yusuf",
@@ -151,7 +185,7 @@ const App = {
                 thumbnail: "imgs/11.png"
             },
 
-            // 12
+            // 15
             {
                 title: "Campus",
                 author: "Finley Jon",
@@ -163,7 +197,27 @@ const App = {
                 thumbnail: "imgs/12.png"
             },
 
-            // 13
+            // 16
+            {
+                title: "On the Way",
+                author: "Guo Zhihao",
+                description: `This photo film follows a simple walk across campus, documenting my partner’s movement toward a media art classroom. Along the way, 
+                            I became interested in moments of stillness within motion—pauses on stairways, waiting near doors, and brief interactions with 
+                            architectural spaces. observing an ordinary routine, the series suggests that quiet personal narratives can emerge from everyday environments.`,
+                thumbnail: "imgs/39.png"
+            },
+
+            // 17
+            {
+                title: "B+W Photo Film",
+                author: "Ivan Xu",
+                description: `A walk around campus: the photographs show an act of noticing the details, lines, and shapes that defi ne the environment 
+                            surrounding us. The changing light that arranges shadows into natural or symmetrical patterns, composing into features that 
+                            create these fl eeting moments.`,
+                thumbnail: "imgs/37.png"
+            },
+
+            // 18
             {
                 title: "Going Up",
                 author: "Julia Ross",
@@ -174,7 +228,7 @@ const App = {
                 thumbnail: "imgs/13.png"
             },
 
-            // 14
+            // 19
             {
                 title: "Pausing in the stairwell",
                 author: "Wenjin Lyu",
@@ -188,7 +242,7 @@ const App = {
                 thumbnail: "imgs/14.png"
             },
 
-            // 15
+            // 20
             {
                 title: "Disconnect",
                 author: "Kale Ratcliffe",
@@ -200,7 +254,30 @@ const App = {
                 thumbnail: "imgs/15.png"
             },
 
-            // 16
+            // 21
+            {
+                title: "After The Revelry",
+                author: "Kevin Wu",
+                description: `My video portrays a student wandering across campus, listening to music and immersing himself in the beauty of nature. The camera 
+                            shifts between first-person and third-person perspectives, revealing both what he sees and the evolution of his emotional state. 
+                            From a broader perspective, the video conveys that life is filled with pressure and hardship. In order to escape these burdens, 
+                            people often turn to intense forms of stimulation — such as video games, drugs, or sex — immersing themselves in a kind of illusory 
+                            revelry. Yet when the revelry ends, what remains is ultimately solitude and emptiness, which only pushes life further into disorder. 
+                            Therefore, one must have the courage to confront pressure and break through personal limitations in order to move toward a renewed future.`,
+                thumbnail: "imgs/32.png"
+            },
+
+            // 22
+            {
+                title: "Photo Film - Computer Lab",
+                author: "Klyde Soco",
+                description: `This short photo film takes you a tour to the Media Arts lab in Togo Salmon hall 202. It gives you a look into the location, 
+                            history and the purpose of it. Showing the entire laboratory and what it can offer. This allows people to potentially find 
+                            interest in what we do in the Media Arts Program.`,
+                thumbnail: "imgs/38.png"
+            },
+
+            // 23
             {
                 title: "In A Bubble",
                 author: "Kirsten Fortuna",
@@ -210,7 +287,7 @@ const App = {
             },
 
 
-              // 17
+              // 24
             {
                 title: "Transition Into Focus",
                 author: "Maheen Shaiq",
@@ -220,7 +297,7 @@ const App = {
                 thumbnail: "imgs/17.png"
             },
 
-            // 18
+            // 25
             {
                 title: "People Watching",
                 author: "Mariana Fonseca Hernández",
@@ -231,7 +308,7 @@ const App = {
             },
 
 
-              // 19
+              // 26
             {
                 title: "The Arcade",
                 author: "Marzia Sarker",
@@ -242,7 +319,7 @@ const App = {
                 thumbnail: "imgs/19.png"
             },
 
-            // 20
+            // 27
             {
                 title: "McMaster Built Against Time",
                 author: "Maya Horvat",
@@ -254,7 +331,7 @@ const App = {
                 thumbnail: "imgs/20.png"
             },
 
-            // 21
+            // 28
             {
                 title: "A Quiet Pause",
                 author: "Nicole Astaiza",
@@ -266,7 +343,7 @@ const App = {
                 thumbnail: "imgs/21.png"
             },
 
-            // 22
+            // 29
             {
                 title: "Creativity Follows",
                 author: "Nicole Crea",
@@ -276,7 +353,7 @@ const App = {
                 thumbnail: "imgs/22.png"
             },
 
-            // 23
+            // 30
             {
                 title: "While No One Is Here",
                 author: "Palak Kewalramani",
@@ -287,7 +364,7 @@ const App = {
                 thumbnail: "imgs/23.png"
             },
 
-            // 24
+            // 31
             {
                 title: "The McMaster Experience",
                 author: "Phoenix Freeburg",
@@ -297,7 +374,7 @@ const App = {
                 thumbnail: "imgs/24.png"
             },
 
-            // 25
+            // 32
             {
                 title: "Passing Through",
                 author: "Porter Casey",
@@ -311,7 +388,7 @@ const App = {
                 thumbnail: "imgs/25.png"
             },
 
-            // 26
+            // 33
             {
                 title: "The smallest turn, the greatest shift",
                 author: "Preetpal Dadra",
@@ -322,94 +399,7 @@ const App = {
                 thumbnail: "imgs/26.png"
             },
 
-            // 27
-            {
-                title: "<Together>",
-                author: "Siting Wang",
-                description: `Together is a black-and-white photo film observing small moments of people walking side by side on campus. Rather 
-                            than focusing on individual stories, the work pays attention to shared movement, repetition, and quiet companionship.
-                            Through shifts in distance and framing, the sequence slowly builds a sense of presence and connection. The narrative 
-                            emerges from rhythm and accumulation rather than from plot.`,
-                thumbnail: "imgs/27.png"
-            },
-
-            // 28
-            {
-                title: "Lunch Break",
-                author: "Yoyo Qu",
-                description: `This photograph captures the daily routine of students during their lunch break at the student center. Through still 
-                            imagery, the work focuses on the actions of people eating in a public space. It emphasizes the recurring movements at 
-                            lunchtime and the quiet flowing sense of time.`,
-                thumbnail: "imgs/28.png"
-            },
-
-            // 29
-            {
-                title: "Don’t Look Back",
-                author: "Yumo",
-                description: `This work shows a figure moving forward in a space that feels empty and controlled. The body faces away and does 
-                            not turn back. The path feels long and exposed. The fear comes from what cannot be seen behind.`,
-                thumbnail: "imgs/29.png"
-            },
-
-            // 30
-            {
-                title: "No Way Home",
-                author: "Zain Mir",
-                description: `In this photo film I wanted to capture the chaos of the bus stop outside of MUSC (McMaster University Student Centre). 
-                            Taking pictures of before and after the bus arrives showcasing how troublesome it is for some people to make it home. 
-                            The photographs show a variety of angles and shots that give different perspectives of the chaos and after the seeming 
-                            quietness of what once was. The music helps add tension creating an atmosphere similar to approaching a boss fight in 
-                            a video game.`,
-                thumbnail: "imgs/30.png"
-            },
-
-            // 31
-            {
-                title: "Coming to Class",
-                author: "Zhehao Yang",
-                description: `This photo film explores the quiet moments encountered while moving through campus on the way to class. The colorful bench 
-                            contrasts with the neutral surroundings, highlighting pauses within an otherwise routine journey. By focusing on everyday spaces, 
-                            the work reflects observation, repetition, and the subtle rhythm of student life`,
-                thumbnail: "imgs/31.png"
-            },
-
-            // 32
-            {
-                title: "After The Revelry",
-                author: "Kevin Wu",
-                description: `My video portrays a student wandering across campus, listening to music and immersing himself in the beauty of nature. The camera 
-                            shifts between first-person and third-person perspectives, revealing both what he sees and the evolution of his emotional state. 
-                            From a broader perspective, the video conveys that life is filled with pressure and hardship. In order to escape these burdens, 
-                            people often turn to intense forms of stimulation — such as video games, drugs, or sex — immersing themselves in a kind of illusory 
-                            revelry. Yet when the revelry ends, what remains is ultimately solitude and emptiness, which only pushes life further into disorder. 
-                            Therefore, one must have the courage to confront pressure and break through personal limitations in order to move toward a renewed future.`,
-                thumbnail: "imgs/32.png"
-            },
-
-            // 33
-            {
-                title: "Countdown",
-                author: "Alaura Heikoop",
-                description: `For this project we focused on taking black and white photographs. I thought it would be fun to see how many numbers I could find 
-                            around campus in the amount of time we were given. My goal was to find them in places where they were single, not grouped within other 
-                            numbers, and I ended up finding numbers 1 to 11 and arranged them to count down to the end of the video.`,
-                thumbnail: "imgs/33.png"
-            },
-
             // 34
-            {
-                title: "People and Places",
-                author: "Cole McNally",
-                description: `This photo best captures what I wanted the shoot to be, a representation of my fascination with looking 
-                            into windows as I pass. I like to feel like a spectator of people and the world, in some way separate and 
-                            completely innocuous. This is why I really like my poor attempt at “blending in” with the plants in the 
-                            reflection, and the glimpse you get of the people inside. If I had more time and planning, I would have liked 
-                            to have all ten of my photos be this conceptual.`,
-                thumbnail: "imgs/34.png"
-            },
-
-            // 35
             {
                 title: "Curious Adventures",
                 author: "Sasha Chung",
@@ -421,58 +411,18 @@ const App = {
                 thumbnail: "imgs/35.png"
             },
 
-            // 36
+            // 35
             {
-                title: "MUSC Motion",
-                author: "Talon Singleton",
-                description: `My project shows MUSC and the natural flowing foot traffic it receives over a short period. I wanted to capture how 
-                            walking through here, there are different moments, sometimes it is busy, or it’s feeling a bit quieter, and I was able 
-                            to capture that through this photo montage assignment.`,
-                thumbnail: "imgs/36.png"
+                title: "<Together>",
+                author: "Siting Wang",
+                description: `Together is a black-and-white photo film observing small moments of people walking side by side on campus. Rather 
+                            than focusing on individual stories, the work pays attention to shared movement, repetition, and quiet companionship.
+                            Through shifts in distance and framing, the sequence slowly builds a sense of presence and connection. The narrative 
+                            emerges from rhythm and accumulation rather than from plot.`,
+                thumbnail: "imgs/27.png"
             },
 
-            // 37
-            {
-                title: "B+W Photo Film",
-                author: "Ivan Xu",
-                description: `A walk around campus: the photographs show an act of noticing the details, lines, and shapes that defi ne the environment 
-                            surrounding us. The changing light that arranges shadows into natural or symmetrical patterns, composing into features that 
-                            create these fl eeting moments.`,
-                thumbnail: "imgs/37.png"
-            },
-
-            // 38
-            {
-                title: "Photo Film - Computer Lab",
-                author: "Klyde Soco",
-                description: `This short photo film takes you a tour to the Media Arts lab in Togo Salmon hall 202. It gives you a look into the location, 
-                            history and the purpose of it. Showing the entire laboratory and what it can offer. This allows people to potentially find 
-                            interest in what we do in the Media Arts Program.`,
-                thumbnail: "imgs/38.png"
-            },
-
-            // 39
-            {
-                title: "On the Way",
-                author: "Guo Zhihao",
-                description: `This photo film follows a simple walk across campus, documenting my partner’s movement toward a media art classroom. Along the way, 
-                            I became interested in moments of stillness within motion—pauses on stairways, waiting near doors, and brief interactions with 
-                            architectural spaces. observing an ordinary routine, the series suggests that quiet personal narratives can emerge from everyday environments.`,
-                thumbnail: "imgs/39.png"
-            },
-
-            // 40
-            {
-                title: "Busy, Busy",
-                author: "Ella Graham",
-                description: `“Busy, Busy” is a photoshoot that consists of those going through their day living their busy lives. As the day goes on the pictures get 
-                            more distorted to showcase how hard it can be to focus on everything around us. Sometimes we can only narrow in on a goal or we move so 
-                            fast the days start to blur. The music is chosen to reflect a leisurely pace contrasting the movement of the photos. A soft effect for 
-                            the edited photos is chosen to keep it light and breezy compared to a more hardcore contrast to add to the effect of consistent flow.`,
-                thumbnail: "imgs/40.png"
-            },
-
-            // 41
+             // 36
             {
                 title: "The Man At The Bus Stop",
                 author: "Sydney Tran",
@@ -482,7 +432,17 @@ const App = {
                 thumbnail: "imgs/41.png"
             },
 
-            // 42
+            // 37
+            {
+                title: "MUSC Motion",
+                author: "Talon Singleton",
+                description: `My project shows MUSC and the natural flowing foot traffic it receives over a short period. I wanted to capture how 
+                            walking through here, there are different moments, sometimes it is busy, or it’s feeling a bit quieter, and I was able 
+                            to capture that through this photo montage assignment.`,
+                thumbnail: "imgs/36.png"
+            },
+
+            // 38
             {
                 title: "The Brief Stay",
                 author: "Weiteng Wu",
@@ -492,6 +452,47 @@ const App = {
                             abandoned again. The sequence explores three main ideas which include how things move from place to place and how people form bonds with 
                             objects and how ordinary moments contain hidden beauty.`,
                 thumbnail: "imgs/42.png"
+            },
+
+            // 39
+            {
+                title: "Lunch Break",
+                author: "Yoyo Qu",
+                description: `This photograph captures the daily routine of students during their lunch break at the student center. Through still 
+                            imagery, the work focuses on the actions of people eating in a public space. It emphasizes the recurring movements at 
+                            lunchtime and the quiet flowing sense of time.`,
+                thumbnail: "imgs/28.png"
+            },
+
+            // 40
+            {
+                title: "Don’t Look Back",
+                author: "Yumo",
+                description: `This work shows a figure moving forward in a space that feels empty and controlled. The body faces away and does 
+                            not turn back. The path feels long and exposed. The fear comes from what cannot be seen behind.`,
+                thumbnail: "imgs/29.png"
+            },
+
+            // 41
+            {
+                title: "No Way Home",
+                author: "Zain Mir",
+                description: `In this photo film I wanted to capture the chaos of the bus stop outside of MUSC (McMaster University Student Centre). 
+                            Taking pictures of before and after the bus arrives showcasing how troublesome it is for some people to make it home. 
+                            The photographs show a variety of angles and shots that give different perspectives of the chaos and after the seeming 
+                            quietness of what once was. The music helps add tension creating an atmosphere similar to approaching a boss fight in 
+                            a video game.`,
+                thumbnail: "imgs/30.png"
+            },
+
+            // 42
+            {
+                title: "Coming to Class",
+                author: "Zhehao Yang",
+                description: `This photo film explores the quiet moments encountered while moving through campus on the way to class. The colorful bench 
+                            contrasts with the neutral surroundings, highlighting pauses within an otherwise routine journey. By focusing on everyday spaces, 
+                            the work reflects observation, repetition, and the subtle rhythm of student life`,
+                thumbnail: "imgs/31.png"
             },
 
             
