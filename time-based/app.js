@@ -180,182 +180,157 @@ const App = {
 
              // 11
             {
-                title: "JAWANI",
-                author: "Jovan Singh",
-                description: `The name Jovan is derived from the Panjabi word jawani, meaning youth and the 
-                            prime of life. This documentary traces my personal journey growing up Canadian-Panjabi 
-                            and learning how to navigate and reconcile my queer identity within family, culture, 
-                            religion, and expectation. Drawing from childhood archives alongside present-day 
-                            footage, the film reflects on early moments of self-expression and becoming. Through 
-                            poetic voiceover, JAWANI explores identity as layered and unfinished. Rather than 
-                            offering a clear resolution, the documentary invites viewers to sit with ambiguity 
-                            and complexity of growing into oneself.`,
+                title: "DON’T BLINK",
+                author: "Eniola Olawale-Yusuf",
+                description: `The photo series follows feelings of being watched and analyzed from afar. This character has a sense of 
+                            paranoia and is hyper aware of their surroundings reinforcing their worry and fear. As the photos go on, 
+                            the character makes brief eye contact with their stalker which eventually leads to a confrontation after 
+                            attempts to run away. The photos prompt the audience to question who the stalker might be and what is going 
+                            on behind the camera.`,
                 xButton: "15%",
                 yButton: "46%",
                 wButton: "40%",
-                hButton: "5%"
+                hButton: "5%",
+                thumbnail: "imgs/11.png"
             },
 
             // 12
             {
-                title: "Love you, Love me.",
-                author: "Jiaxin Chen",
-                description: `This documentary explores the emotional power of idols and how that power shapes personal 
-                            growth. Growing up in a family where love was rarely felt, I found comfort and strength in 
-                            a group of idols who were energetic, positive and inspiring. Their presence brought light 
-                            into a dark time in my life, gave me direction and helped me feel the power of love. The 
-                            documentary follows my journey from admiring them as a child to meeting them in person at a 
-                            concert ten years later. By traveling to the city where they lived and grew up and walking 
-                            through places connected to their path, the documentary shows how the emotional bond between 
-                            idols and fans can feel distant yet deeply connected. Through them, I learned how to understand 
-                            myself, make peace with my past and find the courage to move forward. Loving them also taught 
-                            me how to love myself.`,
+                title: "Campus",
+                author: "Finley Jon",
+                description: `TThis piece was originally created to document the feeling of walking around campus with the crowds that 
+                            form between classes, but I couldn’t catch the crowds in the time that I had so instead I captured this strange, 
+                            nearly empty campus. The photos show campus at a time of day with a very dramatic light, at a strange temperature 
+                            for the time of year, and a weird combo of a relatively high amount of water on the ground and trees, dead from 
+                            the cold winter that seems not to exist in the photos taken.`,
                 xButton: "60%",
                 yButton: "46%",
                 wButton: "30%",
-                hButton: "5%"
+                hButton: "5%",
+                thumbnail: "imgs/12.png"
             },
 
             // 13
             {
-                title: "Somewhere Between Languages",
-                author: "Jinni Chi",
-                description: `Somewhere Between Languages is an autobiographical documentary that reflects on
-                            growing up across different languages and cultural environments. Raised in a bilingual
-                            household, the artist learned early that language is not only a way to communicate, but also
-                            a way to adapt and fit in. Over time, this process of adjustment shaped how she speaks,
-                            listens, and stays silent.
-                            Using personal archival materials such as childhood photographs and family images, the
-                            documentary traces moments of transition from early life to studying abroad. Analogue
-                            media processes, including scanning and CRT re-recording, are used to translate these
-                            memories across formats. Through distortion, repetition, and material texture, the work
-                            mirrors how memories and identities are filtered over time. Rather than focusing on
-                            migration itself, the project examines the subtle cost of constant adaptation and the ongoing
-                            search for belonging without self-censorship.`,
+                title: "Going Up",
+                author: "Julia Ross",
+                description: `A 30-second black-and-white photo film highlighting the calmness and simplicity of the process of using an elevator. 
+                            Beginning with a shot of the button to call the elevator, the film goes through each of the steps, from pressing the 
+                            button, waiting for it to arrive, getting on the elevator, choosing which floor to get off on, and the doors closing 
+                            behind you. The shots utilize blurred objects such as the elevator doors and hands to symbolize motion.`,
                 xButton: "15%",
                 yButton: "54%",
                 wButton: "40%",
-                hButton: "5%"
+                hButton: "5%",
+                thumbnail: "imgs/13.png"
             },
 
             // 14
             {
-                title: "A Letter to Big Me",
-                author: "Lara Sansoya",
-                description: `A Letter to Big Me is a reflective short auto-biographical documentary exploring identity, 
-                            memory, and the evolving relationship we have with ourselves. Built around a personal letter
-                            written years ago, the film follows the experience of revisiting younger hopes, fears, and 
-                            promises through the lens of the present. Using handwritten text, intimate narration, and visual
-                            fragments, the project captures the quiet distance between who we were and who we are becoming. 
-                            Rather than offering clear answers, the film embraces uncertainty, presenting identity as
-                            something layered, and continually unfolding. The act of revisiting the letter becomes an opening 
-                            for the present, as new words are written toward an unknown future, honoring the space between 
-                            past and present selves. At its heart, the film is an act of compassion toward the self: a reminder 
-                            that every version of us is still learning, still trying, and still worthy of becoming.`,
+                title: "Pausing in the stairwell",
+                author: "Wenjin Lyu",
+                description: `This project focuses on the transitional space of campus stairwells, capturing moments when figures exist between 
+                            motion and stillness during their passage. The subjects do not look directly at the camera; instead, they are frozen 
+                            in mid-action. Their postures and flowing hair suggest continuous movement, yet they are momentarily suspended. The 
+                            staircase's railings and walls form a closed, distinct geometric structure that envelops the figures, transforming 
+                            the space itself into a visual framework that both constrains and guides the body. Through monochrome imagery and stark 
+                            chiaroscuro, the work cultivates a cool, restrained observational perspective, prompting viewers to slow their gaze and 
+                            rediscover the subtle states and fleeting sensations often overlooked in daily passage.`,
                 xButton: "60%",
                 yButton: "54%",
                 wButton: "30%",
-                hButton: "5%"
+                hButton: "5%",
+                thumbnail: "imgs/14.png"
             },
 
             // 15
             {
-                title: "My Mothers Daughter",
-                author: "Jamila Andriesa",
-                description: `My film explores the relationship between growing up with an abusive mom and performance. It shows 
-                            the connection between invisibility and eccentricity.`,
+                title: "Disconnect",
+                author: "Kale Ratcliffe",
+                description: `This project is meant to be uncanny, and evoke the sense of disconnect that its name obviously implies. The model poses 
+                            around regular locations, but often in odd ways. And more importantly, her face is always obscured– first by the angle, 
+                            then by objects, then visible only through reflections. Whether the shot is closeup or far away, the lack of a face makes 
+                            the main character mysterious and prevents the viewer from understanding her (what is she doing? How does she feel about 
+                            all this? What does she look like?).`,
                 xButton: "15%",
                 yButton: "62%",
                 wButton: "40%",
-                hButton: "5%"
+                hButton: "5%",
+                thumbnail: "imgs/15.png"
             },
 
             // 16
             {
-                title: "24 Kilograms ",
-                author: "Emma Nash",
-                description: `How do you cram your entire life into one suitcase, weighing no more than 24 kilograms? This piece is a 
-                            personal reflection on the author's travel and transition to Canada from Aotearoa (New Zealand), as an 
-                            exciting but fast and overwhelming experience. The presentation of an expansive range of photography and 
-                            videography, shot in both countries, juxtaposes a small number of personal belongings brought with the author. 
-                            Using these objects of signifance as motif, alongside quick, driving changes in pace, the piece aims brings 
-                            light to the unsettling nature of settling in a new place, while exploring themes of nostalgia, anxiety, 
-                            and eventual peace and acceptance.`,
+                title: "In A Bubble",
+                author: "Kirsten Fortuna",
+                description: `With this video, I wanted to showcase the students at McMaster and how many travel around campus in their own bubble. 
+                            Each photo showcases a different individual or group and how they choose to spend their time when not in class.`,
                 xButton: "60%",
                 yButton: "70%",
                 wButton: "30%",
-                hButton: "6%"
+                hButton: "6%",
+                thumbnail: "imgs/16.png"
             },
 
 
               // 17
             {
-                title: "Diary of a creative",
-                author: "Eniola Olawale-Yusuf",
-                description: `The documentary is a reflective narration of the transformation and the growth of an artist. It goes 
-                            back to the childhood moments and key pivotal moments to support the narration of what has contributed 
-                            to make them fall in love with the art of creating. It uses an intimate first-person narrative perspective 
-                            to trace my journey as an artist who discovered her creative identity gradually through lived experiences 
-                            and memorable connections. It highlights elements from the world that has weaved itself in the exploration 
-                            of identity through art, inviting the viewers to see the mind of a creative through her lens.`,
+                title: "Transition Into Focus",
+                author: "Maheen Shaiq",
+                description: `This photofilm observes a shift from movement to stillness as a student enters the computer lab and settles into their 
+                            workspace. The sequence captures the quiet rhythm of academic life the pause at the doorway, the navigation through rows 
+                            of computers, and the eventual immersion in screen light.`,
                 xButton: "15%",
                 yButton: "70%",
                 wButton: "40%",
-                hButton: "6%"
+                hButton: "6%",
+                thumbnail: "imgs/17.png"
             },
 
             // 18
             {
-                title: "My Girl",
-                author: "James Schütte",
-                description: `In an attempt to understand the life of a beloved companion, I dissect the knowledge and memories 
-                            that I have of her. My Corgi manifests differently through the lenses of philosophy, science, and 
-                            emotion, leaving no clear path for closure. Through a combination of archived photos and videos, 
-                            3D animation, and video editing, I do my best to bring the viewer into a world where existence without 
-                            purpose is redundant, yet purpose without existence is nothing at all.`,
+                title: "People Watching",
+                author: "Mariana Fonseca Hernández",
+                description: `People Watching is a series of photographs taken at McMaster University campus. These photographs are from the perspective 
+                            of a people watcher in their day-to-day routine. The series emphasizes social interactions and small details like pieces of 
+                            clothing and food that give insight into the object's life and what they value.`,
                 xButton: "60%",
                 yButton: "62%",
                 wButton: "30%",
-                hButton: "5%"
+                hButton: "5%",
+                thumbnail: "imgs/18.png"
             },
 
 
               // 19
             {
-                title: "Tonight, Just Us",
-                author: "Serena Lei",
-                description: `My early experiences served as the inspiration for this short film. Both of my parents were very busy 
-                            with their jobs when I was a small child, so I spent a lot of my early years alone. Instead of disagreements, 
-                            their absence was characterized by silence, a stillness that grew accustomed with time. I discovered a 
-                            teddy bear one day. It became my most significant friend after that. I started talking to this bear as 
-                            though it were alive on the days when my parents weren't there and I had no one to talk to. I opened up to 
-                            it about everything, including my worries, little everyday discoveries, and secrets I wasn't yet ready to 
-                            discuss with grownups. Over time, this bear became more than just a toy. It turned into a quiet mirror that 
-                            was like a second me, enabling me to organize my inner world and externalize my feelings. These made-up 
-                            dialogues taught me how to deal with loneliness, self-soothe, and endure emotional isolation. The teddy bear 
-                            served as a witness and a healer, assisting me in developing my sense of self while I was cut off from other 
-                            people.`,
+                title: "The Arcade",
+                author: "Marzia Sarker",
+                description: `This photo film captures my friend, Ansa, exploring the games in the campus arcade. By removing colour, the lively arcade 
+                             moment feels quieter and more introspective, with light and contrast guiding the viewer’s attention. The film highlights 
+                             the shifts between movement and stillness as Ansa plays, focusing on each game. I wanted to show how even a playful environment 
+                             can also feel quiet, focused, and unexpectedly personal.`,
                 xButton: "12%",
                 yButton: "79%",
                 wButton: "40%",
-                hButton: "6%"
+                hButton: "6%",
+                thumbnail: "imgs/19.png"
             },
 
             // 20
             {
-                title: "Beside Me",
-                author: "Xingguo Li",
-                description: `I chose to create this documentary to share how I relate to my family and how my personality
-                            gradually took shape within these relationships. By revisiting moments from childhood, I began
-                            to recognize how ordinary, often unnoticed experiences quietly influenced the way I learned to
-                            feel, observe, and respond to others. This documentary uses childhood memory as its starting 
-                            point to explore how emotional awareness and self-identity develop over time. Through family 
-                            photographs and home videos, the work reflects on moments that once felt simple or playful and 
-                            reconsiders the meaning they carry when viewed from the present.`,
+                title: "McMaster Built Against Time",
+                author: "Maya Horvat",
+                description: `Located in Hamilton, Ontario is the campus of McMaster University. On a daily basis, staff, students, 
+                            and visitors pass by and perhaps walk through Hamilton Hall. Yet, they may be extremely busy and not realize 
+                            the beauty of the old, gothic architecture appearing on academic buildings. Therefore, the Photo Film of 
+                            McMaster Built Against Time encourages audiences to become more observant of the timeless features that 
+                            surround them on campus grounds.`,
                 xButton: "60%",
                 yButton: "79%",
                 wButton: "30%",
-                hButton: "5%"
+                hButton: "5%",
+                thumbnail: "imgs/20.png"
             },
 
             // 21
