@@ -23,11 +23,11 @@
   }
 
   .btn {
-     /* background-image: url('imgs/01.png'); */
+    /* background-image: url('imgs/01.png'); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-   
+
   }
 </style>
 
@@ -35,19 +35,20 @@
   <div id="app">
     <v-app>
       <v-main class="map-container">
-        
-            <v-app-bar color="black">
-                Click on each photo to know more about each project’s titles, authors, materials, and creative intentions.
 
-            </v-app-bar>
+
+        <v-sheet color="black" class="d-flex flex-row ga-4 pa-5">
+          <v-btn icon="mdi-home" href="../index.html"></v-btn>
+          <p> Click on each photo to know more about each project's titles, authors, materials, and creative intentions.
+          </p>
+        </v-sheet>
 
         <v-container>
           <!-- <v-img src="imgs/desktop-bd.png" @click="findCoordinates"></v-img> -->
           <v-row>
             <v-col v-for="project in projects" :key="project.title" cols="6">
-              <v-btn width="100%" height="20vw" 
-              :style="{backgroundImage: `url(${project.thumbnail})`}"
-              class="btn" @click="toggleDialog(project)" color="white"></v-btn>
+              <v-btn width="100%" height="20vw" :style="{backgroundImage: `url(${project.thumbnail})`}" class="btn"
+                @click="toggleDialog(project)" color="white"></v-btn>
             </v-col>
           </v-row>
         </v-container>
@@ -73,6 +74,27 @@
           </v-card>
         </v-dialog>
 
+
+        <!-- intro description -->
+        <v-dialog v-model="showIntroDialog" style=" opacity: 0.9;" color="transparent">
+          <v-card>
+            <v-card-actions>
+              <v-btn @click="showIntroDialog = false" icon="mdi-close-circle-outline"></v-btn>
+            </v-card-actions>
+
+            <v-card-title>
+              Exhibition Name
+            </v-card-title>
+
+            <v-card-subtitle>
+              Add a subtitle if you want
+            </v-card-subtitle>
+
+            <v-card-text>
+              Exhibition description goes here ...
+            </v-card-text>
+          </v-card>
+        </v-dialog>
       </v-main>
     </v-app>
   </div>

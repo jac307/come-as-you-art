@@ -6,6 +6,7 @@ const vuetify = createVuetify();
 const App = {
     setup() {
         const showDialog = ref(false)
+        const showIntroDialog = ref(true)
         const selectedProject = ref({}); // Holds the clicked project's data
         const projects = [
             // 1
@@ -430,6 +431,7 @@ const App = {
             projects,
             findCoordinates,
             showDialog,
+            showIntroDialog,
             toggleDialog,
             selectedProject
 

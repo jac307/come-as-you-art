@@ -28,27 +28,46 @@
         font-family: "Bungee Inline", sans-serif;
         color: white;
     }
-</style>
 
+  .wrap-text {
+    height: auto !important;
+    min-height: 36px;
+    padding: 8px 16px !important;
+  }
+
+  .wrap-text .v-btn__content {
+    white-space: normal;
+    flex: 1 1 auto;
+    text-align: center;
+  }
+
+  p {
+    padding: 1.5rem;    
+  }
+
+</style>
 <body>
     <div id="app">
         <v-app>
             <v-main class="main-background">
                 <v-container>
 
-                    <div class="d-flex flex-column align-center">
+                    <div class="mt-5 d-flex flex-column align-center">
                         <h1>COME AS YOU ART</h1>
                         <h2>Exhibition</h2>
                     </div>
+
+                    <div class="d-flex ga-2 flex-column my-7 align-center">
+                        <v-btn class="wrap-text" href="narrative-strategies/index.html">MEDIAART 3IO3 - Autobiographical
+                            Documentary</v-btn>
+                        <v-btn class="wrap-text" href="zines/index.html">IARTS 3BA3 - Artist Book: Narrative/ Time </v-btn>
+                        <v-btn class="wrap-text" href="time-based/index.html">MEDIAART 2B03 - Photo Film</v-btn>
+                    </div>
+
                     <p>Come As You Art invites viewers into a shared space where personal histories, memories, and
                         identities are expressed across media. Through archival materials and self-reflective works, the
                         exhibition treats storytelling as a gathering. Casual, intimate, and open to interpretation.</p>
 
-                    <div class="d-flex flex-column my-7 align-center">
-                        <v-btn href="narrative-strategies/index.html">MEDIAART 3IO3 - Autobiographical Documentary</v-btn>
-                        <v-btn href="zines/index.html">IARTS 3BA3 - Artist Book: Narrative/ Time </v-btn>
-                        <v-btn href="time-based/index.html">MEDIAART 2B03 - Photo Film</v-btn>
-                    </div>
                 </v-container>
             </v-main>
 

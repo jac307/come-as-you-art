@@ -5,7 +5,8 @@ const vuetify = createVuetify();
 
 const App = {
     setup() {
-                const showDialog = ref(false)
+        const showDialog = ref(false)
+        const showIntroDialog = ref(true)
         const selectedProject = ref({}); // Holds the clicked project's data
         const projects = [
             // 1
@@ -18,10 +19,6 @@ const App = {
                             paintings are what began my art practice early in my childhood, and have been constant materials 
                             I have reached for in the years since. By integrating these mediums, I wanted to illustrate how I am 
                             made up of these artistic expressions, and how I have built a protective space in art for myself.`,
-                xButton: "28%",
-                yButton: "5%",
-                wButton: "30%",
-                hButton: "5%",
                 thumbnail: "imgs/01.png"
             },
 
@@ -33,10 +30,6 @@ const App = {
                 description: `Multimedia work containing dried-up rose metals, digital illustrations on watercolour paper. 8.5 x 11. 
                             This work is inspired by the concepts of decay and death, through the imagery of flowers as 
                             storytellers to symbolize the passage of time.`,
-                xButton: "28%",
-                yButton: "5%",
-                wButton: "30%",
-                hButton: "5%",
                 thumbnail: "imgs/02.png"
             },
 
@@ -46,10 +39,6 @@ const App = {
                 author: "Tristan Zadvorny",
                 description: `I used coloured pencils and acrylic wash on regular card paper. 4.5 x 6. 
                             My work is inspired by the novelty of going to bed, and sleeping`,
-                xButton: "28%",
-                yButton: "5%",
-                wButton: "30%",
-                hButton: "5%",
                 thumbnail: "imgs/03.png"
             },
 
@@ -60,10 +49,6 @@ const App = {
                 description: `Ink on paper. 15cm x 25cm. 
                             My work is inspired by handmade research journals. It explores the fears and feelings of a scientist, 
                             Blue Gills throughout a underwater ecological disaster with a supernatural twist.`,
-                xButton: "28%",
-                yButton: "5%",
-                wButton: "30%",
-                hButton: "5%",
                 thumbnail: "imgs/04.png"
             },
 
@@ -75,10 +60,6 @@ const App = {
                 description: `I used the color markers to color it. And then made a book by folding the paper. Then put it in the box. 
                             My work was inspired by the fact that I slept for a whole day last week and realized how quickly time passes. I need to cherish time . I created this 
                             book made up of ancient Chinese clocks and Western clock numbers.`,
-                xButton: "28%",
-                yButton: "5%",
-                wButton: "30%",
-                hButton: "5%",
                 thumbnail: "imgs/05.png"
             },
 
@@ -88,10 +69,6 @@ const App = {
                 author: "Maia Venturelli Golba",
                 description: `Harvesting in the 905 Watercolour/Acrylic paint and Photo collage / 59 X 11 
                             Inspired by the real harvest records of a local Hamilton farm, Harvesting in the 905 divides time through different vegetables harvested in seasons.”`,
-                xButton: "28%",
-                yButton: "5%",
-                wButton: "30%",
-                hButton: "5%",
                 thumbnail: "imgs/06.png"
             },
 
@@ -101,10 +78,6 @@ const App = {
                 author: "Charlotte Heron",
                 description: `Paper, Epson printer, Brother cut and scan / 5.5 in x 9.5 in x 0.5 in 
                             A non linear story about an ever changing relationship to self, gender and womanhood--- it gives just as much as it takes.`,
-                xButton: "28%",
-                yButton: "5%",
-                wButton: "30%",
-                hButton: "5%",
                 thumbnail: "imgs/07.png"
             },
 
@@ -113,22 +86,14 @@ const App = {
                 title: "",
                 author: "",
                 description: ``,
-                xButton: "28%",
-                yButton: "5%",
-                wButton: "30%",
-                hButton: "5%",
                 thumbnail: "imgs/08.png"
             },
 
-             // 9
+            // 9
             {
                 title: "",
                 author: "",
                 description: ``,
-                xButton: "28%",
-                yButton: "5%",
-                wButton: "30%",
-                hButton: "5%",
                 thumbnail: "imgs/09.png"
             },
 
@@ -137,14 +102,10 @@ const App = {
                 title: "",
                 author: "",
                 description: ``,
-                xButton: "28%",
-                yButton: "5%",
-                wButton: "30%",
-                hButton: "5%",
                 thumbnail: "imgs/10.png"
             },
 
-            
+
         ]
 
         function toggleDialog(project) {
@@ -168,6 +129,7 @@ const App = {
             projects,
             findCoordinates,
             showDialog,
+            showIntroDialog,
             toggleDialog,
             selectedProject
 

@@ -6,6 +6,7 @@ const vuetify = createVuetify();
 const App = {
     setup() {
                 const showDialog = ref(false)
+                const showIntroDialog = ref(true)
         const selectedProject = ref({}); // Holds the clicked project's data
         const projects = [
             // 1
@@ -14,11 +15,7 @@ const App = {
                 author: "Aliyah Muto",
                 description: `This photofilm captures students leaving classes and walking home or into MUSC. I wanted to capture 
                             the emotions of those finished with their classes, with some looking relieved and ready to chat with 
-                            friends, and others seeming reserved and ready to head home.`,
-                xButton: "28%",
-                yButton: "5%",
-                wButton: "30%",
-                hButton: "5%",
+                            friends, and others seeming reserved and ready to head home.`,           
                 thumbnail: "imgs/01.png"
             },
 
@@ -33,10 +30,6 @@ const App = {
                             perspective of the main character walking to where they are taking a break. The catch is 
                             that the amount of time spent on each photo is longer for the walking and transitional 
                             photographs.`,
-                xButton: "68%",
-                yButton: "5%",
-                wButton: "25%",
-                hButton: "5%",
                 thumbnail: "imgs/02.png"
             },
 
@@ -53,10 +46,6 @@ const App = {
                             fountains, and processes to slow down when the water is in the form of snow and puddles. The 
                             pacing along with the peaceful water sounds are meant to create and enhance the water 
                             photography story.`,
-                xButton: "20%",
-                yButton: "13%",
-                wButton: "40%",
-                hButton: "5%",
                 thumbnail: "imgs/03.png"
             },
 
@@ -71,10 +60,6 @@ const App = {
                             is in their own serene world. Overexposing the lighting added to the effect of serenity. 
                             It brightens the otherwise poorly lit library and isolates the subject without making the 
                             subject feel isolated.`,
-                xButton: "64%",
-                yButton: "13%",
-                wButton: "30%",
-                hButton: "5%",
                 thumbnail: "imgs/04.png"
             },
 
@@ -88,10 +73,6 @@ const App = {
                             series starts with sunlight from a low angle, and the light slowly fades into darkness. 
                             I mainly choose natural elements, metal, and walls, because they are common materials on 
                             campus and create a real school feeling.`,
-                xButton: "20%",
-                yButton: "21%",
-                wButton: "37%",
-                hButton: "5%",
                 thumbnail: "imgs/05.png"
             },
 
@@ -107,10 +88,6 @@ const App = {
                             to birds chirping and ambient music reinforces this micronarrative and enhances the atmosphere. 
                             Ultimately, this piece exemplifi es the emptiness of man-made structure without the presence 
                             of greenery, illustrating that humanity cannot exist without it.`,
-                xButton: "60%",
-                yButton: "21%",
-                wButton: "30%",
-                hButton: "5%",
                 thumbnail: "imgs/06.png"
             },
 
@@ -123,10 +100,6 @@ const App = {
                             recent activity despite their emptiness. Each strong note switches to a new image, reflecting how the 
                             human eye blinks and refocuses. Combine both visual and sound together reflect on absence, and the 
                             lingering traces of everyday life.`,
-                xButton: "16%",
-                yButton: "29%",
-                wButton: "40%",
-                hButton: "5%",
                 thumbnail: "imgs/07.png"
             },
 
@@ -138,10 +111,6 @@ const App = {
                             of the dog blinking and looking around. Within this still forest, the dog observes mannequin like tree branches, 
                             that once held life and posture. The dog comes across a particular branch that has the texture of platinum, a boat 
                             sailing on grassy waves, and a smiling tree, observing the dog’s curiosity.`,
-                xButton: "60%",
-                yButton: "29%",
-                wButton: "30%",
-                hButton: "5%",
                 thumbnail: "imgs/08.png"
             },
 
@@ -154,10 +123,6 @@ const App = {
                              stillness using repetition, low light, and restrained pace, giving the subject and surroundings equal 
                              visual weight. Meaning comes gradually from spatial rhythm and subtle visual transitions rather than 
                              narrative action.`,
-                xButton: "20%",
-                yButton: "37%",
-                wButton: "37%",
-                hButton: "5%",
                 thumbnail: "imgs/09.png"
             },
 
@@ -170,10 +135,6 @@ const App = {
                             hollow feeling one gets when looking at themselves for inspiration. The subject was asked to create puppet 
                             figures and the photos were taken as they slowly gave up and ran out of ideas. Gently complementing the 
                             series of photos is the sound of a damaged fluorescent capacitor repeatedly failing to turn on the light.`,
-                xButton: "60%",
-                yButton: "37%",
-                wButton: "30%",
-                hButton: "5%",
                 thumbnail: "imgs/10.png"
             },
 
@@ -187,10 +148,6 @@ const App = {
                             the character makes brief eye contact with their stalker which eventually leads to a confrontation after 
                             attempts to run away. The photos prompt the audience to question who the stalker might be and what is going 
                             on behind the camera.`,
-                xButton: "15%",
-                yButton: "46%",
-                wButton: "40%",
-                hButton: "5%",
                 thumbnail: "imgs/11.png"
             },
 
@@ -198,15 +155,11 @@ const App = {
             {
                 title: "Campus",
                 author: "Finley Jon",
-                description: `TThis piece was originally created to document the feeling of walking around campus with the crowds that 
+                description: `This piece was originally created to document the feeling of walking around campus with the crowds that 
                             form between classes, but I couldn’t catch the crowds in the time that I had so instead I captured this strange, 
                             nearly empty campus. The photos show campus at a time of day with a very dramatic light, at a strange temperature 
                             for the time of year, and a weird combo of a relatively high amount of water on the ground and trees, dead from 
                             the cold winter that seems not to exist in the photos taken.`,
-                xButton: "60%",
-                yButton: "46%",
-                wButton: "30%",
-                hButton: "5%",
                 thumbnail: "imgs/12.png"
             },
 
@@ -218,10 +171,6 @@ const App = {
                             Beginning with a shot of the button to call the elevator, the film goes through each of the steps, from pressing the 
                             button, waiting for it to arrive, getting on the elevator, choosing which floor to get off on, and the doors closing 
                             behind you. The shots utilize blurred objects such as the elevator doors and hands to symbolize motion.`,
-                xButton: "15%",
-                yButton: "54%",
-                wButton: "40%",
-                hButton: "5%",
                 thumbnail: "imgs/13.png"
             },
 
@@ -236,10 +185,6 @@ const App = {
                             the space itself into a visual framework that both constrains and guides the body. Through monochrome imagery and stark 
                             chiaroscuro, the work cultivates a cool, restrained observational perspective, prompting viewers to slow their gaze and 
                             rediscover the subtle states and fleeting sensations often overlooked in daily passage.`,
-                xButton: "60%",
-                yButton: "54%",
-                wButton: "30%",
-                hButton: "5%",
                 thumbnail: "imgs/14.png"
             },
 
@@ -252,10 +197,6 @@ const App = {
                             then by objects, then visible only through reflections. Whether the shot is closeup or far away, the lack of a face makes 
                             the main character mysterious and prevents the viewer from understanding her (what is she doing? How does she feel about 
                             all this? What does she look like?).`,
-                xButton: "15%",
-                yButton: "62%",
-                wButton: "40%",
-                hButton: "5%",
                 thumbnail: "imgs/15.png"
             },
 
@@ -265,10 +206,6 @@ const App = {
                 author: "Kirsten Fortuna",
                 description: `With this video, I wanted to showcase the students at McMaster and how many travel around campus in their own bubble. 
                             Each photo showcases a different individual or group and how they choose to spend their time when not in class.`,
-                xButton: "60%",
-                yButton: "70%",
-                wButton: "30%",
-                hButton: "6%",
                 thumbnail: "imgs/16.png"
             },
 
@@ -280,10 +217,6 @@ const App = {
                 description: `This photofilm observes a shift from movement to stillness as a student enters the computer lab and settles into their 
                             workspace. The sequence captures the quiet rhythm of academic life the pause at the doorway, the navigation through rows 
                             of computers, and the eventual immersion in screen light.`,
-                xButton: "15%",
-                yButton: "70%",
-                wButton: "40%",
-                hButton: "6%",
                 thumbnail: "imgs/17.png"
             },
 
@@ -294,10 +227,6 @@ const App = {
                 description: `People Watching is a series of photographs taken at McMaster University campus. These photographs are from the perspective 
                             of a people watcher in their day-to-day routine. The series emphasizes social interactions and small details like pieces of 
                             clothing and food that give insight into the object's life and what they value.`,
-                xButton: "60%",
-                yButton: "62%",
-                wButton: "30%",
-                hButton: "5%",
                 thumbnail: "imgs/18.png"
             },
 
@@ -310,10 +239,6 @@ const App = {
                              moment feels quieter and more introspective, with light and contrast guiding the viewer’s attention. The film highlights 
                              the shifts between movement and stillness as Ansa plays, focusing on each game. I wanted to show how even a playful environment 
                              can also feel quiet, focused, and unexpectedly personal.`,
-                xButton: "12%",
-                yButton: "79%",
-                wButton: "40%",
-                hButton: "6%",
                 thumbnail: "imgs/19.png"
             },
 
@@ -326,10 +251,6 @@ const App = {
                             the beauty of the old, gothic architecture appearing on academic buildings. Therefore, the Photo Film of 
                             McMaster Built Against Time encourages audiences to become more observant of the timeless features that 
                             surround them on campus grounds.`,
-                xButton: "60%",
-                yButton: "79%",
-                wButton: "30%",
-                hButton: "5%",
                 thumbnail: "imgs/20.png"
             },
 
@@ -342,10 +263,6 @@ const App = {
                             posture, light, and quiet attention as the viewer pauses before the artwork. The absence of
                             colour emphasizes mood and atmosphere, highlighting how small gestures and moments of
                             reflection create a visual rhythm of calm and contemplation.`,
-                xButton: "8%",
-                yButton: "87.5%",
-                wButton: "47%",
-                hButton: "6%",
                 thumbnail: "imgs/21.png"
             },
 
@@ -356,10 +273,6 @@ const App = {
                 description: `No matter where you are, creativity and inspiration will follow. A sketchbook was used as the main subject, 
                             creating repetition, as well as transitioning from place to place to give variety. A higher contrast was
                             present in the photos to emphasize detail and the main subject.`,
-                xButton: "60%",
-                yButton: "87.5%",
-                wButton: "30%",
-                hButton: "6.5%",
                 thumbnail: "imgs/22.png"
             },
 
@@ -371,10 +284,6 @@ const App = {
                             alone in an empty classroom. Through subtle gestures, phone use, and moments of stillness, the work reflects 
                             quiet pauses and connections to friends back home. The narrative emerges through repetition, absence, and 
                             the temporary nature of presence within academic space.`,
-                xButton: "60%",
-                yButton: "87.5%",
-                wButton: "30%",
-                hButton: "6.5%",
                 thumbnail: "imgs/23.png"
             },
 
@@ -385,10 +294,6 @@ const App = {
                 description: `I collection of photos capturing the experiences of McMaster campus from end to end, showing famous landmarks 
                             of the university, and the common routes walked by its students. A beautiful representation of the common experience 
                             of McMaster.`,
-                xButton: "60%",
-                yButton: "87.5%",
-                wButton: "30%",
-                hButton: "6.5%",
                 thumbnail: "imgs/24.png"
             },
 
@@ -403,10 +308,6 @@ const App = {
                             focusing on shifts in light, angle, and framing, the work considers how familiar environments change when they are 
                             empty and momentarily still. The project approaches everyday movement through campus as a series of small moments, 
                             rather than a story with a defined beginning or end.`,
-                xButton: "60%",
-                yButton: "87.5%",
-                wButton: "30%",
-                hButton: "6.5%",
                 thumbnail: "imgs/25.png"
             },
 
@@ -418,10 +319,6 @@ const App = {
                             to go over and understand something in his notebook, but to no avail decides to go for a walk. Worried while walking 
                             he bumps into another university student who shifts his day from horrible to happiest. At the end, they learn the notes 
                             together, indicating how a small turn in life can sometimes make a great impact.`,
-                xButton: "8%",
-                yButton: "87.5%",
-                wButton: "47%",
-                hButton: "6%",
                 thumbnail: "imgs/26.png"
             },
 
@@ -433,10 +330,6 @@ const App = {
                             than focusing on individual stories, the work pays attention to shared movement, repetition, and quiet companionship.
                             Through shifts in distance and framing, the sequence slowly builds a sense of presence and connection. The narrative 
                             emerges from rhythm and accumulation rather than from plot.`,
-                xButton: "60%",
-                yButton: "87.5%",
-                wButton: "30%",
-                hButton: "6.5%",
                 thumbnail: "imgs/27.png"
             },
 
@@ -447,10 +340,6 @@ const App = {
                 description: `This photograph captures the daily routine of students during their lunch break at the student center. Through still 
                             imagery, the work focuses on the actions of people eating in a public space. It emphasizes the recurring movements at 
                             lunchtime and the quiet flowing sense of time.`,
-                xButton: "60%",
-                yButton: "87.5%",
-                wButton: "30%",
-                hButton: "6.5%",
                 thumbnail: "imgs/28.png"
             },
 
@@ -460,10 +349,6 @@ const App = {
                 author: "Yumo",
                 description: `This work shows a figure moving forward in a space that feels empty and controlled. The body faces away and does 
                             not turn back. The path feels long and exposed. The fear comes from what cannot be seen behind.`,
-                xButton: "60%",
-                yButton: "87.5%",
-                wButton: "30%",
-                hButton: "6.5%",
                 thumbnail: "imgs/29.png"
             },
 
@@ -476,10 +361,6 @@ const App = {
                             The photographs show a variety of angles and shots that give different perspectives of the chaos and after the seeming 
                             quietness of what once was. The music helps add tension creating an atmosphere similar to approaching a boss fight in 
                             a video game.`,
-                xButton: "60%",
-                yButton: "87.5%",
-                wButton: "30%",
-                hButton: "6.5%",
                 thumbnail: "imgs/30.png"
             },
 
@@ -490,10 +371,6 @@ const App = {
                 description: `This photo film explores the quiet moments encountered while moving through campus on the way to class. The colorful bench 
                             contrasts with the neutral surroundings, highlighting pauses within an otherwise routine journey. By focusing on everyday spaces, 
                             the work reflects observation, repetition, and the subtle rhythm of student life`,
-                xButton: "8%",
-                yButton: "87.5%",
-                wButton: "47%",
-                hButton: "6%",
                 thumbnail: "imgs/31.png"
             },
 
@@ -502,10 +379,6 @@ const App = {
                 title: "",
                 author: "",
                 description: ``,
-                xButton: "60%",
-                yButton: "87.5%",
-                wButton: "30%",
-                hButton: "6.5%",
                 thumbnail: "imgs/32.png"
             },
 
@@ -514,10 +387,6 @@ const App = {
                 title: "",
                 author: "",
                 description: ``,
-                xButton: "60%",
-                yButton: "87.5%",
-                wButton: "30%",
-                hButton: "6.5%",
                 thumbnail: "imgs/33.png"
             },
 
@@ -526,10 +395,6 @@ const App = {
                 title: "",
                 author: "",
                 description: ``,
-                xButton: "60%",
-                yButton: "87.5%",
-                wButton: "30%",
-                hButton: "6.5%",
                 thumbnail: "imgs/34.png"
             },
 
@@ -538,10 +403,6 @@ const App = {
                 title: "",
                 author: "",
                 description: ``,
-                xButton: "60%",
-                yButton: "87.5%",
-                wButton: "30%",
-                hButton: "6.5%",
                 thumbnail: "imgs/35.png"
             },
 
@@ -550,10 +411,6 @@ const App = {
                 title: "",
                 author: "",
                 description: ``,
-                xButton: "8%",
-                yButton: "87.5%",
-                wButton: "47%",
-                hButton: "6%",
                 thumbnail: "imgs/36.png"
             },
 
@@ -562,10 +419,6 @@ const App = {
                 title: "",
                 author: "",
                 description: ``,
-                xButton: "60%",
-                yButton: "87.5%",
-                wButton: "30%",
-                hButton: "6.5%",
                 thumbnail: "imgs/37.png"
             },
 
@@ -574,10 +427,6 @@ const App = {
                 title: "",
                 author: "",
                 description: ``,
-                xButton: "60%",
-                yButton: "87.5%",
-                wButton: "30%",
-                hButton: "6.5%",
                 thumbnail: "imgs/38.png"
             },
 
@@ -586,10 +435,6 @@ const App = {
                 title: "",
                 author: "",
                 description: ``,
-                xButton: "60%",
-                yButton: "87.5%",
-                wButton: "30%",
-                hButton: "6.5%",
                 thumbnail: "imgs/39.png"
             },
 
@@ -598,10 +443,6 @@ const App = {
                 title: "",
                 author: "",
                 description: ``,
-                xButton: "60%",
-                yButton: "87.5%",
-                wButton: "30%",
-                hButton: "6.5%",
                 thumbnail: "imgs/40.png"
             },
 
@@ -629,6 +470,7 @@ const App = {
             projects,
             findCoordinates,
             showDialog,
+            showIntroDialog,
             toggleDialog,
             selectedProject
 
