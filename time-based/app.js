@@ -469,6 +469,78 @@ const App = {
                 thumbnail: "imgs/40.png"
             },
 
+            // 41
+            {
+                title: "",
+                author: "",
+                description: ``,
+                thumbnail: "imgs/41.png"
+            },
+
+            // 42
+            {
+                title: "",
+                author: "",
+                description: ``,
+                thumbnail: "imgs/42.png"
+            },
+
+            // 43
+            {
+                title: "",
+                author: "",
+                description: ``,
+                thumbnail: "imgs/43.png"
+            },
+
+            // 44
+            {
+                title: "",
+                author: "",
+                description: ``,
+                thumbnail: "imgs/44.png"
+            },
+
+            // 45
+            {
+                title: "",
+                author: "",
+                description: ``,
+                thumbnail: "imgs/45.png"
+            },
+
+            // 46
+            {
+                title: "",
+                author: "",
+                description: ``,
+                thumbnail: "imgs/46.png"
+            },
+
+            // 47
+            {
+                title: "",
+                author: "",
+                description: ``,
+                thumbnail: "imgs/47.png"
+            },
+
+            // 48
+            {
+                title: "",
+                author: "",
+                description: ``,
+                thumbnail: "imgs/48.png"
+            },
+
+            // 49
+            {
+                title: "",
+                author: "",
+                description: ``,
+                thumbnail: "imgs/49.png"
+            },
+
             
         ]
 
