@@ -376,17 +376,24 @@ const App = {
 
             // 32
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "After The Revelry",
+                author: "Kevin Wu",
+                description: `My video portrays a student wandering across campus, listening to music and immersing himself in the beauty of nature. The camera 
+                            shifts between first-person and third-person perspectives, revealing both what he sees and the evolution of his emotional state. 
+                            From a broader perspective, the video conveys that life is filled with pressure and hardship. In order to escape these burdens, 
+                            people often turn to intense forms of stimulation — such as video games, drugs, or sex — immersing themselves in a kind of illusory 
+                            revelry. Yet when the revelry ends, what remains is ultimately solitude and emptiness, which only pushes life further into disorder. 
+                            Therefore, one must have the courage to confront pressure and break through personal limitations in order to move toward a renewed future.`,
                 thumbnail: "imgs/32.png"
             },
 
             // 33
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "Countdown",
+                author: "Alaura Heikoop",
+                description: `For this project we focused on taking black and white photographs. I thought it would be fun to see how many numbers I could find 
+                            around campus in the amount of time we were given. My goal was to find them in places where they were single, not grouped within other 
+                            numbers, and I ended up finding numbers 1 to 11 and arranged them to count down to the end of the video.`,
                 thumbnail: "imgs/33.png"
             },
 
