@@ -12,8 +12,8 @@ const App = {
             {
                 title: "Nesting",
                 author: "Mara Sanders",
-                description: `Watercolour on paper, fabric, thread, graphite on paper. 13" x 2" x 10". \n 
-                            To reflect on the idea of a 'time based' narrative, 
+                description: `Watercolour on paper, fabric, thread, graphite on paper / 13" x 2" x 10" 
+                            ——— To reflect on the idea of a 'time based' narrative, 
                             I wanted to look  at my own artistic practice and use of media. Knitting, sewing, and watercolour 
                             paintings are what began my art practice early in my childhood, and have been constant materials 
                             I have reached for in the years since. By integrating these mediums, I wanted to illustrate how I am 
