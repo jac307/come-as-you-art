@@ -453,9 +453,11 @@ const App = {
 
             // 39
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "On the Way",
+                author: "Guo Zhihao",
+                description: `This photo film follows a simple walk across campus, documenting my partner’s movement toward a media art classroom. Along the way, 
+                            I became interested in moments of stillness within motion—pauses on stairways, waiting near doors, and brief interactions with 
+                            architectural spaces. observing an ordinary routine, the series suggests that quiet personal narratives can emerge from everyday environments.`,
                 thumbnail: "imgs/39.png"
             },
 
