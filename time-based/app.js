@@ -42,15 +42,17 @@ const App = {
 
             // 3
             {
-                title: "Noisy Places",
-                author: "Caidence Amartey.",
-                description: `This photo film is meant to display peaceful solitude. The title of the project works 
-                            to affirm that solitude can be found anywhere. The use of cowboy to close up shots was 
-                            intended to ensure all photos generate a sense of distant intimacy. Viewers are in the 
-                            space with the subject yet still remain far enough so as to not disturb them. The subject 
-                            is in their own serene world. Overexposing the lighting added to the effect of serenity. 
-                            It brightens the otherwise poorly lit library and isolates the subject without making the 
-                            subject feel isolated.`,
+                title: "Variations of Water",
+                author: "Brooke Shelley",
+                description: `My idea was to find different forms of water on McMaster campus (running water fountain, 
+                            ice, snow, puddle, water bottle). I applied the rule of thirds and leading lines to my various 
+                            shots including extreme close up, close up, wide shot, and medium shot. To make sure I got 
+                            the flow of the water with a good depth of field I made sure to turn on continuous shots on 
+                            the camera. Additionally, in Adobe Premiere Pro I purposefully made the pacing start slow when 
+                            showing the bottled water, then the pacing gets quicker as the water appears through sinks and 
+                            fountains, and processes to slow down when the water is in the form of snow and puddles. The 
+                            pacing along with the peaceful water sounds are meant to create and enhance the water 
+                            photography story.`,
                 xButton: "20%",
                 yButton: "13%",
                 wButton: "40%",
@@ -60,13 +62,15 @@ const App = {
 
             // 4
             {
-                title: "Signs of Presence",
-                author: "Xiaoqian Wen",
-                description: `I focus on school spaces where there are signs of student activity but no students appear. 
-                            Through small details in these corners, I try to show that students have been there. The 
-                            series starts with sunlight from a low angle, and the light slowly fades into darkness. 
-                            I mainly choose natural elements, metal, and walls, because they are common materials on 
-                            campus and create a real school feeling.`,
+                title: "Noisy Places",
+                author: "Caidence Amartey.",
+                description: `This photo film is meant to display peaceful solitude. The title of the project works 
+                            to affirm that solitude can be found anywhere. The use of cowboy to close up shots was 
+                            intended to ensure all photos generate a sense of distant intimacy. Viewers are in the 
+                            space with the subject yet still remain far enough so as to not disturb them. The subject 
+                            is in their own serene world. Overexposing the lighting added to the effect of serenity. 
+                            It brightens the otherwise poorly lit library and isolates the subject without making the 
+                            subject feel isolated.`,
                 xButton: "64%",
                 yButton: "13%",
                 wButton: "30%",
@@ -76,6 +80,22 @@ const App = {
 
 
             // 5
+            {
+                title: "Signs of Presence",
+                author: "Xiaoqian Wen",
+                description: `I focus on school spaces where there are signs of student activity but no students appear. 
+                            Through small details in these corners, I try to show that students have been there. The 
+                            series starts with sunlight from a low angle, and the light slowly fades into darkness. 
+                            I mainly choose natural elements, metal, and walls, because they are common materials on 
+                            campus and create a real school feeling.`,
+                xButton: "20%",
+                yButton: "21%",
+                wButton: "37%",
+                hButton: "5%",
+                thumbnail: "imgs/05.png"
+            },
+
+            // 6
             {
                 title: "accretion",
                 author: "Charlotte Payne",
@@ -87,22 +107,6 @@ const App = {
                             to birds chirping and ambient music reinforces this micronarrative and enhances the atmosphere. 
                             Ultimately, this piece exemplifi es the emptiness of man-made structure without the presence 
                             of greenery, illustrating that humanity cannot exist without it.`,
-                xButton: "20%",
-                yButton: "21%",
-                wButton: "37%",
-                hButton: "5%",
-                thumbnail: "imgs/05.png"
-            },
-
-            // 6
-            {
-                title: "The Peek 觀𥦬日記",
-                author: "Charlotte Wong",
-                description: `The Peek explores the transition from human presence to absence through window-framed images. Images 
-                            transfer from lively scenes with people to empty classrooms and hallways, as well as spaces that suggest 
-                            recent activity despite their emptiness. Each strong note switches to a new image, reflecting how the 
-                            human eye blinks and refocuses. Combine both visual and sound together reflect on absence, and the 
-                            lingering traces of everyday life.`,
                 xButton: "60%",
                 yButton: "21%",
                 wButton: "30%",
@@ -112,12 +116,13 @@ const App = {
 
             // 7
             {
-                title: "Frozen in Time",
-                author: "Christian F Downey-Acevedo",
-                description: `This composition captures a dog, observing a still forest. Each transition between photographs is representative 
-                            of the dog blinking and looking around. Within this still forest, the dog observes mannequin like tree branches, 
-                            that once held life and posture. The dog comes across a particular branch that has the texture of platinum, a boat 
-                            sailing on grassy waves, and a smiling tree, observing the dog’s curiosity.`,
+                title: "The Peek 觀𥦬日記",
+                author: "Charlotte Wong",
+                description: `The Peek explores the transition from human presence to absence through window-framed images. Images 
+                            transfer from lively scenes with people to empty classrooms and hallways, as well as spaces that suggest 
+                            recent activity despite their emptiness. Each strong note switches to a new image, reflecting how the 
+                            human eye blinks and refocuses. Combine both visual and sound together reflect on absence, and the 
+                            lingering traces of everyday life.`,
                 xButton: "16%",
                 yButton: "29%",
                 wButton: "40%",
@@ -127,13 +132,12 @@ const App = {
 
             // 8
             {
-                title: "Caught in Passing",
-                author: "Damian Boukhers",
-                description: `Caught in Passing is a black-and-white picture film that depicts an underground campus parking garage 
-                             as a shared space for architectural and human presence. The sequence balances moments of movement and 
-                             stillness using repetition, low light, and restrained pace, giving the subject and surroundings equal 
-                             visual weight. Meaning comes gradually from spatial rhythm and subtle visual transitions rather than 
-                             narrative action.`,
+                title: "Frozen in Time",
+                author: "Christian F Downey-Acevedo",
+                description: `This composition captures a dog, observing a still forest. Each transition between photographs is representative 
+                            of the dog blinking and looking around. Within this still forest, the dog observes mannequin like tree branches, 
+                            that once held life and posture. The dog comes across a particular branch that has the texture of platinum, a boat 
+                            sailing on grassy waves, and a smiling tree, observing the dog’s curiosity.`,
                 xButton: "60%",
                 yButton: "29%",
                 wButton: "30%",
@@ -143,13 +147,13 @@ const App = {
 
              // 9
             {
-                title: "Blown Fuse",
-                author: "Emaris Cruz-Sanchez",
-                description: `Blown Fuse is a piece about the attempts to respark imagination during phases of boredom or burnout, 
-                            but to no avail. The image above is representative of the slow passage of time while capturing the empty 
-                            hollow feeling one gets when looking at themselves for inspiration. The subject was asked to create puppet 
-                            figures and the photos were taken as they slowly gave up and ran out of ideas. Gently complementing the 
-                            series of photos is the sound of a damaged fluorescent capacitor repeatedly failing to turn on the light.`,
+                title: "Caught in Passing",
+                author: "Damian Boukhers",
+                description: `Caught in Passing is a black-and-white picture film that depicts an underground campus parking garage 
+                             as a shared space for architectural and human presence. The sequence balances moments of movement and 
+                             stillness using repetition, low light, and restrained pace, giving the subject and surroundings equal 
+                             visual weight. Meaning comes gradually from spatial rhythm and subtle visual transitions rather than 
+                             narrative action.`,
                 xButton: "20%",
                 yButton: "37%",
                 wButton: "37%",
@@ -159,15 +163,13 @@ const App = {
 
             // 10
             {
-                title: "Curly Hair",
-                author: "Jitong Li",
-                description: `As an East Asian girl, having curly hair was one of my defining features 
-                            when most people around me had straight hair. When I was young, I didn't realize what it 
-                            brought to me, but during my adolescence, this characteristic also meant a certain degree 
-                            of uniqueness. This distinctiveness brought burdens and some troubles I couldn't resolve 
-                            at the time. However, during my growth process, I chose to adjust my way of coexisting 
-                            with it in a gentler manner. Now, I've gradually made peace with my hair. I understand 
-                            everyone's differences and have begun to respect each person's unique traits.`,
+                title: "Blown Fuse",
+                author: "Emaris Cruz-Sanchez",
+                description: `Blown Fuse is a piece about the attempts to respark imagination during phases of boredom or burnout, 
+                            but to no avail. The image above is representative of the slow passage of time while capturing the empty 
+                            hollow feeling one gets when looking at themselves for inspiration. The subject was asked to create puppet 
+                            figures and the photos were taken as they slowly gave up and ran out of ideas. Gently complementing the 
+                            series of photos is the sound of a damaged fluorescent capacitor repeatedly failing to turn on the light.`,
                 xButton: "60%",
                 yButton: "37%",
                 wButton: "30%",
