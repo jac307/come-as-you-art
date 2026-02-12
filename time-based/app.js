@@ -399,33 +399,45 @@ const App = {
 
             // 34
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "People and Places",
+                author: "Cole McNally",
+                description: `This photo best captures what I wanted the shoot to be, a representation of my fascination with looking 
+                            into windows as I pass. I like to feel like a spectator of people and the world, in some way separate and 
+                            completely innocuous. This is why I really like my poor attempt at “blending in” with the plants in the 
+                            reflection, and the glimpse you get of the people inside. If I had more time and planning, I would have liked 
+                            to have all ten of my photos be this conceptual.`,
                 thumbnail: "imgs/34.png"
             },
 
             // 35
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "Curious Adventures",
+                author: "Sasha Chung",
+                description: `The in-between moments of a school day are captured in this black-and-white photo film that is completely set 
+                            outside. The camera moves over college lawns, along wandering walks, over textured brick walls, and past 
+                            wind-blown trees during break times. Curiosity leads it to focus on changing shadows, light coming through branches, 
+                            footsteps on pavement, and passing people. The film turns common outdoor areas into places of discovery through careful 
+                            exploration and slow observation, turning every pause into a little adventure.`,
                 thumbnail: "imgs/35.png"
             },
 
             // 36
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "MUSC Motion",
+                author: "Talon Singleton",
+                description: `My project shows MUSC and the natural flowing foot traffic it receives over a short period. I wanted to capture how 
+                            walking through here, there are different moments, sometimes it is busy, or it’s feeling a bit quieter, and I was able 
+                            to capture that through this photo montage assignment.`,
                 thumbnail: "imgs/36.png"
             },
 
             // 37
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "B+W Photo Film",
+                author: "Ivan Xu",
+                description: `A walk around campus: the photographs show an act of noticing the details, lines, and shapes that defi ne the environment 
+                            surrounding us. The changing light that arranges shadows into natural or symmetrical patterns, composing into features that 
+                            create these fl eeting moments.`,
                 thumbnail: "imgs/37.png"
             },
 
