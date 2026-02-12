@@ -135,14 +135,6 @@ const App = {
                 thumbnail: "imgs/charlie.png"
             },
 
-            / 13
-            {
-                title: "Passing",
-                author: "Ace Zadvorny",
-                description: ``,
-                thumbnail: "imgs/ace.png"
-            },
-
 
         ]
 
