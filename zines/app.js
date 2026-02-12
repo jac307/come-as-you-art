@@ -39,7 +39,7 @@ const App = {
                 author: "Tristan Zadvorny",
                 description: `I used coloured pencils and acrylic wash on regular card paper. 4.5 x 6. 
                             My work is inspired by the novelty of going to bed, and sleeping`,
-                thumbnail: "imgs/03.png"
+                thumbnail: "imgs/tristen.png"
             },
 
             // 4
@@ -60,7 +60,7 @@ const App = {
                 description: `I used the color markers to color it. And then made a book by folding the paper. Then put it in the box. 
                             ——— My work was inspired by the fact that I slept for a whole day last week and realized how quickly time passes. I need to cherish time . I created this 
                             book made up of ancient Chinese clocks and Western clock numbers.`,
-                thumbnail: "imgs/05.png"
+                thumbnail: "imgs/kevin.png"
             },
 
             // 6
@@ -69,7 +69,7 @@ const App = {
                 author: "Maia Venturelli Golba",
                 description: `Harvesting in the 905 Watercolour/Acrylic paint and Photo collage / 59 X 11 
                             Inspired by the real harvest records of a local Hamilton farm, Harvesting in the 905 divides time through different vegetables harvested in seasons.”`,
-                thumbnail: "imgs/06.png"
+                thumbnail: "imgs/maia.png"
             },
 
             // 7
@@ -86,7 +86,7 @@ const App = {
                 title: "",
                 author: "",
                 description: ``,
-                thumbnail: "imgs/08.png"
+                thumbnail: "imgs/logan.png"
             },
 
             // 9
