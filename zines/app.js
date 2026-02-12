@@ -102,10 +102,10 @@ const App = {
 
             // 10
             {
-                title: "",
-                author: "",
-                description: ``,
-                thumbnail: "imgs/10.png"
+                title: "Wasting Light",
+                author: "Georgina Farrow",
+                description: `Textiles / 4 in x 4 in`,
+                thumbnail: "imgs/georgina.png"
             },
 
 
