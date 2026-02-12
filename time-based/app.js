@@ -427,20 +427,6 @@ const App = {
 
             // 27
             {
-                title: "Coming to Class",
-                author: "Zhehao Yang",
-                description: `This photo film explores the quiet moments encountered while moving through campus on the way to class. The colorful bench 
-                            contrasts with the neutral surroundings, highlighting pauses within an otherwise routine journey. By focusing on everyday spaces, 
-                            the work reflects observation, repetition, and the subtle rhythm of student life`,
-                xButton: "60%",
-                yButton: "87.5%",
-                wButton: "30%",
-                hButton: "6.5%",
-                thumbnail: "imgs/27.png"
-            },
-
-            // 28
-            {
                 title: "<Together>",
                 author: "Siting Wang",
                 description: `Together is a black-and-white photo film observing small moments of people walking side by side on campus. Rather 
@@ -451,10 +437,10 @@ const App = {
                 yButton: "87.5%",
                 wButton: "30%",
                 hButton: "6.5%",
-                thumbnail: "imgs/28.png"
+                thumbnail: "imgs/27.png"
             },
 
-            // 29
+            // 28
             {
                 title: "Lunch Break",
                 author: "Yoyo Qu",
@@ -465,10 +451,10 @@ const App = {
                 yButton: "87.5%",
                 wButton: "30%",
                 hButton: "6.5%",
-                thumbnail: "imgs/29.png"
+                thumbnail: "imgs/28.png"
             },
 
-            // 30
+            // 29
             {
                 title: "Don’t Look Back",
                 author: "Yumo",
@@ -478,10 +464,10 @@ const App = {
                 yButton: "87.5%",
                 wButton: "30%",
                 hButton: "6.5%",
-                thumbnail: "imgs/30.png"
+                thumbnail: "imgs/29.png"
             },
 
-            // 31
+            // 30
             {
                 title: "No Way Home",
                 author: "Zain Mir",
@@ -490,6 +476,20 @@ const App = {
                             The photographs show a variety of angles and shots that give different perspectives of the chaos and after the seeming 
                             quietness of what once was. The music helps add tension creating an atmosphere similar to approaching a boss fight in 
                             a video game.`,
+                xButton: "60%",
+                yButton: "87.5%",
+                wButton: "30%",
+                hButton: "6.5%",
+                thumbnail: "imgs/30.png"
+            },
+
+            // 31
+            {
+                title: "Coming to Class",
+                author: "Zhehao Yang",
+                description: `This photo film explores the quiet moments encountered while moving through campus on the way to class. The colorful bench 
+                            contrasts with the neutral surroundings, highlighting pauses within an otherwise routine journey. By focusing on everyday spaces, 
+                            the work reflects observation, repetition, and the subtle rhythm of student life`,
                 xButton: "8%",
                 yButton: "87.5%",
                 wButton: "47%",
