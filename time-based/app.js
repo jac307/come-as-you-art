@@ -10,21 +10,11 @@ const App = {
         const projects = [
             // 1
             {
-                title: "Moldy Apple",
-                author: "Jiamin Ouyang",
-                description: `I grew up under the care of my grandparents, and as I grew older, they
-                            became my emotional anchor. To me, they were not only respected elders,
-                            but also close friends and joyful companions. They left their hometown and
-                            traveled 1,500 kilometers to a strange city, giving up the comfort of their later
-                            years simply to raise me. I could always feel the depth of their love. Even
-                            when I attended boarding school and faced weekly separations, those
-                            temporary goodbyes were nothing compared to the finality of real loss. My
-                            grandfather’s passing taught me that if I remember him, as long as someone
-                            remembers him, he has not truly disappeared. I loved eating peeled apples,
-                            and my grandfather would always smile while carefully peeling one for me.
-                            Now, a forgotten apple turning moldy reminds me that the hands that once
-                            prepared it with love are no longer here. I will treasure every moment with my
-                            grandmother, and I will always love them.`,
+                title: "Leaving Class",
+                author: "Aliyah Muto",
+                description: `This photofilm captures students leaving classes and walking home or into MUSC. I wanted to capture 
+                            the emotions of those finished with their classes, with some looking relieved and ready to chat with 
+                            friends, and others seeming reserved and ready to head home.`,
                 xButton: "28%",
                 yButton: "5%",
                 wButton: "30%",
