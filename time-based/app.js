@@ -335,9 +335,13 @@ const App = {
 
             // 21
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "A Quiet Pause",
+                author: "Nicole Astaiza",
+                description: `This photograph captures a moment of stillness within the McMaster Gallery, where the fast
+                            rhythm of campus life briefly slows. Through black-and-white imagery, the focus shifts to
+                            posture, light, and quiet attention as the viewer pauses before the artwork. The absence of
+                            colour emphasizes mood and atmosphere, highlighting how small gestures and moments of
+                            reflection create a visual rhythm of calm and contemplation.`,
                 xButton: "8%",
                 yButton: "87.5%",
                 wButton: "47%",
@@ -347,9 +351,11 @@ const App = {
 
             // 22
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "Creativity Follows",
+                author: "Nicole Crea",
+                description: `No matter where you are, creativity and inspiration will follow. A sketchbook was used as the main subject, 
+                            creating repetition, as well as transitioning from place to place to give variety. A higher contrast was
+                            present in the photos to emphasize detail and the main subject.`,
                 xButton: "60%",
                 yButton: "87.5%",
                 wButton: "30%",
@@ -359,9 +365,12 @@ const App = {
 
             // 23
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "While No One Is Here",
+                author: "Palak Kewalramani",
+                description: `While No One Is Here is a black-and-white photo film composed of still images, observing a student waiting 
+                            alone in an empty classroom. Through subtle gestures, phone use, and moments of stillness, the work reflects 
+                            quiet pauses and connections to friends back home. The narrative emerges through repetition, absence, and 
+                            the temporary nature of presence within academic space.`,
                 xButton: "60%",
                 yButton: "87.5%",
                 wButton: "30%",
@@ -371,9 +380,15 @@ const App = {
 
             // 24
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "Passing Through",
+                author: "Porter Casey",
+                description: `This photo-film follows everyday campus spaces like corridors, stairwells, classrooms, and exits putting focus 
+                            on the quiet movement through them. The sequence moves through spaces without people, letting the architecture 
+                            take the main focus. The repetition of hallways, doorways, and light creates a subtle sense of direction and 
+                            disorientation, reflecting the building’s quiet tone even when it's outside of active use. By removing people and 
+                            focusing on shifts in light, angle, and framing, the work considers how familiar environments change when they are 
+                            empty and momentarily still. The project approaches everyday movement through campus as a series of small moments, 
+                            rather than a story with a defined beginning or end.`,
                 xButton: "60%",
                 yButton: "87.5%",
                 wButton: "30%",
@@ -383,9 +398,12 @@ const App = {
 
             // 25
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "The smallest turn, the greatest shift",
+                author: "Preetpal Dadra",
+                description: `This is a photo film about a university student who is having a bad day and is really stressed out. He keeps trying 
+                            to go over and understand something in his notebook, but to no avail decides to go for a walk. Worried while walking 
+                            he bumps into another university student who shifts his day from horrible to happiest. At the end, they learn the notes 
+                            together, indicating how a small turn in life can sometimes make a great impact.`,
                 xButton: "60%",
                 yButton: "87.5%",
                 wButton: "30%",
@@ -395,9 +413,12 @@ const App = {
 
             // 26
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "<Together>",
+                author: "Siting Wang",
+                description: `Together is a black-and-white photo film observing small moments of people walking side by side on campus. Rather 
+                            than focusing on individual stories, the work pays attention to shared movement, repetition, and quiet companionship.
+                            Through shifts in distance and framing, the sequence slowly builds a sense of presence and connection. The narrative 
+                            emerges from rhythm and accumulation rather than from plot.`,
                 xButton: "8%",
                 yButton: "87.5%",
                 wButton: "47%",
@@ -407,9 +428,11 @@ const App = {
 
             // 27
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "Lunch Break",
+                author: "Yoyo Qu",
+                description: `This photograph captures the daily routine of students during their lunch break at the student center. Through still 
+                            imagery, the work focuses on the actions of people eating in a public space. It emphasizes the recurring movements at 
+                            lunchtime and the quiet flowing sense of time.`,
                 xButton: "60%",
                 yButton: "87.5%",
                 wButton: "30%",
@@ -419,9 +442,10 @@ const App = {
 
             // 28
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "Don’t Look Back",
+                author: "Yumo",
+                description: `This work shows a figure moving forward in a space that feels empty and controlled. The body faces away and does 
+                            not turn back. The path feels long and exposed. The fear comes from what cannot be seen behind.`,
                 xButton: "60%",
                 yButton: "87.5%",
                 wButton: "30%",
@@ -431,9 +455,13 @@ const App = {
 
             // 29
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "No Way Home",
+                author: "Zain Mir",
+                description: `In this photo film I wanted to capture the chaos of the bus stop outside of MUSC (McMaster University Student Centre). 
+                            Taking pictures of before and after the bus arrives showcasing how troublesome it is for some people to make it home. 
+                            The photographs show a variety of angles and shots that give different perspectives of the chaos and after the seeming 
+                            quietness of what once was. The music helps add tension creating an atmosphere similar to approaching a boss fight in 
+                            a video game.`,
                 xButton: "60%",
                 yButton: "87.5%",
                 wButton: "30%",
