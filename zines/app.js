@@ -83,17 +83,20 @@ const App = {
 
             // 8
             {
-                title: "",
-                author: "",
-                description: ``,
-                thumbnail: "imgs/logan.png"
+                title: "Dear Diary",
+                author: "Yeemon",
+                description: `Paper, Ink / 5"x3.5"x0.5"
+                            ——— Dear Diary is a black-and-white illustrated diary that traces the emotional aftermath of a breakup over time. Each
+                            entry is a different stage of grief, shifting in voice, composition, and visual intensity as the narrator moves from shock 
+                            to acceptance. `,
+                thumbnail: "imgs/yeemon.png"
             },
 
             // 9
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "VO₂ Peak Research Study",
+                author: "Amber Forno",
+                description: `Full Title: VO₂ Peak Research Study: Moderate-Intensity Continuous Training, Participant 00489 / etchings on paper, bound as an artist book / 10.75” x 7.75” x 1.25”`,
                 thumbnail: "imgs/charlie.png"
             },
 
