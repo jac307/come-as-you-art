@@ -53,7 +53,7 @@ const App = {
             {
                 title: "The Utopia Daughter",
                 author: "Xuezi Jin (Eloise)",
-                description: `Full title: "The Utopia Daughter: A Distance of 11,400km". 
+                description: `Full title: "The Utopia Daughter: A Distance of 11,400km" /  
                             This autobiographical documentary explores how distance redefines intimacy. As a22-year-old
                             woman raised in an East Asian household, I examine my anxious
                             attachment style to reveal an absence in my upbringing, parental favoritismandemotional
