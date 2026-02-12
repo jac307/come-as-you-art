@@ -94,7 +94,7 @@ const App = {
                 title: "",
                 author: "",
                 description: ``,
-                thumbnail: "imgs/09.png"
+                thumbnail: "imgs/charlie.png"
             },
 
             // 10
