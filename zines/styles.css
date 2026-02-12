@@ -25,6 +25,6 @@ html, body {
 /* 📱 Mobile */
 @media (max-width: 768px) {
   .home {
-    background-image: url("images/cellphone-bd.png"); /* X image */
+    background-image: url("images/zines-background.jpg"); /* X image */
   }
 }
