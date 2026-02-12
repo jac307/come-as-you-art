@@ -463,82 +463,35 @@ const App = {
 
             // 40
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "Busy, Busy",
+                author: "Ella Graham",
+                description: `“Busy, Busy” is a photoshoot that consists of those going through their day living their busy lives. As the day goes on the pictures get 
+                            more distorted to showcase how hard it can be to focus on everything around us. Sometimes we can only narrow in on a goal or we move so 
+                            fast the days start to blur. The music is chosen to reflect a leisurely pace contrasting the movement of the photos. A soft effect for 
+                            the edited photos is chosen to keep it light and breezy compared to a more hardcore contrast to add to the effect of consistent flow.`,
                 thumbnail: "imgs/40.png"
             },
 
             // 41
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "The Man At The Bus Stop",
+                author: "Sydney Tran",
+                description: `This photo captures the sequences of the regular rhythm of life. Long, slow pace stops on the image as the man waits for the bus to come, 
+                            a fast change of image as everyone quickly rushes over to the bus demonstrating the fast pace sequence, and the people in motion on a still 
+                            image. This image helps us understand that every person is going through their own journey beyond the frame.`,
                 thumbnail: "imgs/41.png"
             },
 
             // 42
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "The Brief Stay",
+                author: "Weiteng Wu",
+                description: `The 30-second black-and-white photo film shows a backpack with a 'B' marking which watches people in their daily activities at McMaster 
+                            University during a snowy day. The sequence shows the object's short path through still photographs which capture its movement as faint 
+                            blurs while it moves from being discarded on a cold bench to being carried through streets and placed in a classroom before it ends up 
+                            abandoned again. The sequence explores three main ideas which include how things move from place to place and how people form bonds with 
+                            objects and how ordinary moments contain hidden beauty.`,
                 thumbnail: "imgs/42.png"
-            },
-
-            // 43
-            {
-                title: "",
-                author: "",
-                description: ``,
-                thumbnail: "imgs/43.png"
-            },
-
-            // 44
-            {
-                title: "",
-                author: "",
-                description: ``,
-                thumbnail: "imgs/44.png"
-            },
-
-            // 45
-            {
-                title: "",
-                author: "",
-                description: ``,
-                thumbnail: "imgs/45.png"
-            },
-
-            // 46
-            {
-                title: "",
-                author: "",
-                description: ``,
-                thumbnail: "imgs/46.png"
-            },
-
-            // 47
-            {
-                title: "",
-                author: "",
-                description: ``,
-                thumbnail: "imgs/47.png"
-            },
-
-            // 48
-            {
-                title: "",
-                author: "",
-                description: ``,
-                thumbnail: "imgs/48.png"
-            },
-
-            // 49
-            {
-                title: "",
-                author: "",
-                description: ``,
-                thumbnail: "imgs/49.png"
             },
 
             
