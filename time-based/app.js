@@ -28,7 +28,8 @@ const App = {
                 xButton: "28%",
                 yButton: "5%",
                 wButton: "30%",
-                hButton: "5%"
+                hButton: "5%",
+                thumbnail: "imgs/01.png"
             },
 
             // 2
