@@ -102,10 +102,45 @@ const App = {
 
             // 10
             {
-                title: "Wasting Light",
-                author: "Georgina Farrow",
-                description: `Textiles / 4 in x 4 in`,
-                thumbnail: "imgs/georgina.png"
+                title: "Don't cry ",
+                author: "Sabrina Vachon",
+                description: `Print, flower metal / 2x4 inches
+                            ——— I wanted to play with the idea of permanence with a medium that is not meant to last forever. I have also recently broken my mirror into smithereens and failed.`,
+                thumbnail: "imgs/sabrina.png"
+            },
+
+            // 11
+            {
+                title: "Eldest Daughter",
+                author: "Esther Chai",
+                description: `Ink  Scraps of paper from magazines / 7" x 11" (LxW)
+                            ——— For every eldest daughter who had to grow up too soon.`,
+                thumbnail: "imgs/esther.png"
+            },
+
+            // 12
+            {
+                title: "Drowning in my elementary school swimming pool",
+                author: "Amelia Doty",
+                description: `Pen and marker on paper with Lino cut and print / 7inches x 7inches
+                            ——— A poetry book that follows the development of shame through a young girls life.`,
+                thumbnail: "imgs/amelia.png"
+            },
+
+            // 13
+            {
+                title: "Dead Skin",
+                author: "Charlie Saltzman",
+                description: ``,
+                thumbnail: "imgs/charlie.png"
+            },
+
+            / 13
+            {
+                title: "Passing",
+                author: "Ace Zadvorny",
+                description: ``,
+                thumbnail: "imgs/ace.png"
             },
 
 
