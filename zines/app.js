@@ -37,8 +37,8 @@ const App = {
             {
                 title: "Bedtime",
                 author: "Tristan Zadvorny",
-                description: `I used coloured pencils and acrylic wash on regular card paper. 4.5 x 6. 
-                            My work is inspired by the novelty of going to bed, and sleeping`,
+                description: `I used coloured pencils and acrylic wash on regular card paper / 4.5 x 6 
+                            ——— My work is inspired by the novelty of going to bed, and sleeping`,
                 thumbnail: "imgs/tristen.png"
             },
 
