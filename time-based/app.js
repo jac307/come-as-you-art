@@ -443,9 +443,11 @@ const App = {
 
             // 38
             {
-                title: "",
-                author: "",
-                description: ``,
+                title: "Photo Film - Computer Lab",
+                author: "Klyde Soco",
+                description: `This short photo film takes you a tour to the Media Arts lab in Togo Salmon hall 202. It gives you a look into the location, 
+                            history and the purpose of it. Showing the entire laboratory and what it can offer. This allows people to potentially find 
+                            interest in what we do in the Media Arts Program.`,
                 thumbnail: "imgs/38.png"
             },
 
