@@ -19,7 +19,7 @@ const App = {
                             paintings are what began my art practice early in my childhood, and have been constant materials 
                             I have reached for in the years since. By integrating these mediums, I wanted to illustrate how I am 
                             made up of these artistic expressions, and how I have built a protective space in art for myself.`,
-                thumbnail: "imgs/01.png"
+                thumbnail: "imgs/mara.png"
             },
 
             // 2
@@ -30,7 +30,7 @@ const App = {
                 description: `Multimedia work containing dried-up rose metals, digital illustrations on watercolour paper / 8.5 x 11 
                             ——— This work is inspired by the concepts of decay and death, through the imagery of flowers as 
                             storytellers to symbolize the passage of time.`,
-                thumbnail: "imgs/02.png"
+                thumbnail: "imgs/bronte.png"
             },
 
             // 3
@@ -49,7 +49,7 @@ const App = {
                 description: `Ink on paper / 15cm x 25cm 
                             ——— My work is inspired by handmade research journals. It explores the fears and feelings of a scientist, 
                             Blue Gills throughout a underwater ecological disaster with a supernatural twist.`,
-                thumbnail: "imgs/04.png"
+                thumbnail: "imgs/rowan.png"
             },
 
 
@@ -78,7 +78,7 @@ const App = {
                 author: "Charlotte Heron",
                 description: `Paper, Epson printer, Brother cut and scan / 5.5 in x 9.5 in x 0.5 in 
                             ——— A non linear story about an ever changing relationship to self, gender and womanhood--- it gives just as much as it takes.`,
-                thumbnail: "imgs/07.png"
+                thumbnail: "imgs/charlotte.png"
             },
 
             // 8
@@ -97,7 +97,7 @@ const App = {
                 title: "VO₂ Peak Research Study",
                 author: "Amber Forno",
                 description: `Full Title: VO₂ Peak Research Study: Moderate-Intensity Continuous Training, Participant 00489 / etchings on paper, bound as an artist book / 10.75” x 7.75” x 1.25”`,
-                thumbnail: "imgs/charlie.png"
+                thumbnail: "imgs/amber.png"
             },
 
             // 10
