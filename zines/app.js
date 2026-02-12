@@ -12,7 +12,7 @@ const App = {
             {
                 title: "Nesting",
                 author: "Mara Sanders",
-                description: `Watercolour on paper, fabric, thread, graphite on paper / 13" x 2" x 10" 
+                description: `Watercolour on paper, fabric, thread, graphite on paper. 13" x 2" x 10". 
                             Brief description of the time-based narrative: To reflect on the idea of a 'time based' narrative, 
                             I wanted to look  at my own artistic practice and use of media. Knitting, sewing, and watercolour 
                             paintings are what began my art practice early in my childhood, and have been constant materials 
@@ -30,7 +30,7 @@ const App = {
             {
                 title: "Withered",
                 author: "Bronte Mayot",
-                description: `Multimedia work containing dried-up rose metals, digital illustrations on watercolour paper / 8.5 x 11”
+                description: `Multimedia work containing dried-up rose metals, digital illustrations on watercolour paper. 8.5 x 11. 
                             This work is inspired by the concepts of decay and death, through the imagery of flowers as 
                             storytellers to symbolize the passage of time.`,
                 xButton: "28%",
@@ -39,13 +39,12 @@ const App = {
                 hButton: "5%",
                 thumbnail: "imgs/02.png"
             },
-            },
 
             // 3
             {
                 title: "Bedtime",
                 author: "Tristan Zadvorny",
-                description: `I used coloured pencils and acrylic wash on regular card paper / 4.5 x 6”
+                description: `I used coloured pencils and acrylic wash on regular card paper. 4.5 x 6. 
                             My work is inspired by the novelty of going to bed, and sleeping`,
                 xButton: "28%",
                 yButton: "5%",
@@ -53,20 +52,19 @@ const App = {
                 hButton: "5%",
                 thumbnail: "imgs/03.png"
             },
-            },
 
             // 4
             {
                 title: "Blue Gill’s Descent - Journal #2",
                 author: "Rowan van Oosten",
-                description: `Ink on paper / 15cm x 25cm 
-                            My work is inspired by handmade research journals. It explores the fears and feelings of a scientist, Blue Gills throughout a underwater ecological disaster with a supernatural twist.`,
+                description: `Ink on paper. 15cm x 25cm. 
+                            My work is inspired by handmade research journals. It explores the fears and feelings of a scientist, 
+                            Blue Gills throughout a underwater ecological disaster with a supernatural twist.`,
                 xButton: "28%",
                 yButton: "5%",
                 wButton: "30%",
                 hButton: "5%",
                 thumbnail: "imgs/04.png"
-            },
             },
 
 
@@ -83,7 +81,6 @@ const App = {
                 hButton: "5%",
                 thumbnail: "imgs/05.png"
             },
-            },
 
             // 6
             {
@@ -96,7 +93,6 @@ const App = {
                 wButton: "30%",
                 hButton: "5%",
                 thumbnail: "imgs/06.png"
-            },
             },
 
             // 7
@@ -111,7 +107,6 @@ const App = {
                 hButton: "5%",
                 thumbnail: "imgs/07.png"
             },
-            },
 
             // 8
             {
@@ -123,7 +118,6 @@ const App = {
                 wButton: "30%",
                 hButton: "5%",
                 thumbnail: "imgs/08.png"
-            },
             },
 
              // 9
@@ -137,7 +131,6 @@ const App = {
                 hButton: "5%",
                 thumbnail: "imgs/09.png"
             },
-            },
 
             // 10
             {
@@ -149,7 +142,6 @@ const App = {
                 wButton: "30%",
                 hButton: "5%",
                 thumbnail: "imgs/10.png"
-            },
             },
 
             
