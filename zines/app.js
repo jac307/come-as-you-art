@@ -68,7 +68,7 @@ const App = {
                 title: "Swampy Ditches",
                 author: "Maia Venturelli Golba",
                 description: `Harvesting in the 905 Watercolour/Acrylic paint and Photo collage / 59 X 11 
-                            Inspired by the real harvest records of a local Hamilton farm, Harvesting in the 905 divides time through different vegetables harvested in seasons.”`,
+                            ——— Inspired by the real harvest records of a local Hamilton farm, Harvesting in the 905 divides time through different vegetables harvested in seasons.”`,
                 thumbnail: "imgs/maia.png"
             },
 
@@ -77,7 +77,7 @@ const App = {
                 title: "Leave my body behind, I'll take the rest",
                 author: "Charlotte Heron",
                 description: `Paper, Epson printer, Brother cut and scan / 5.5 in x 9.5 in x 0.5 in 
-                            A non linear story about an ever changing relationship to self, gender and womanhood--- it gives just as much as it takes.`,
+                            ——— A non linear story about an ever changing relationship to self, gender and womanhood--- it gives just as much as it takes.`,
                 thumbnail: "imgs/07.png"
             },
 
