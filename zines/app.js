@@ -9,6 +9,83 @@ const App = {
         const showIntroDialog = ref(true)
         const selectedProject = ref({}); // Holds the clicked project's data
         const projects = [
+
+            // 1
+            {
+                title: "Passing",
+                author: ", Ace Zadvorny ",
+                description: ``,
+                thumbnail: "imgs/ace.png"
+            },
+
+            // 2
+            {
+                title: "VO₂ Peak Research Study",
+                author: "Amber Forno",
+                description: `Full Title: VO₂ Peak Research Study: Moderate-Intensity Continuous Training, Participant 00489 / etchings on paper, 
+                            bound as an artist book / 10.75” x 7.75” x 1.25”`,
+                thumbnail: "imgs/amber.png"
+            },
+
+             // 3
+            {
+                title: "Drowning in my elementary school swimming pool",
+                author: "Amelia Doty",
+                description: `Pen and marker on paper with Lino cut and print / 7inches x 7inches
+                            ——— A poetry book that follows the development of shame through a young girls life.`,
+                thumbnail: "imgs/amelia.png"
+            },
+
+            // 4
+
+            {
+                title: "Withered",
+                author: "Bronte Mayot",
+                description: `Multimedia work containing dried-up rose metals, digital illustrations on watercolour paper / 8.5 x 11 
+                            ——— This work is inspired by the concepts of decay and death, through the imagery of flowers as 
+                            storytellers to symbolize the passage of time.`,
+                thumbnail: "imgs/bronte.png"
+            },
+
+            // 5
+            {
+                title: "Dead Skin",
+                author: "Charlie Saltzman",
+                description: ``,
+                thumbnail: "imgs/charlie.png"
+            },
+
+            // 6
+            {
+                title: "Leave my body behind, I'll take the rest",
+                author: "Charlotte Heron",
+                description: `Paper, Epson printer, Brother cut and scan / 5.5 in x 9.5 in x 0.5 in 
+                            ——— A non linear story about an ever changing relationship to self, gender and womanhood--- it gives just as much as it takes.`,
+                thumbnail: "imgs/charlotte.png"
+            },
+
+            // 7
+            {
+                title: "Canadian Passport",
+                author: "Chris Yanes- Alvarenga",
+                description: ``,
+                thumbnail: "imgs/chris.png"
+            },
+
+             // 8
+            {
+                title: "Eldest Daughter",
+                author: "Esther Chai",
+                description: `Ink  Scraps of paper from magazines / 7" x 11" (LxW)
+                            ——— For every eldest daughter who had to grow up too soon.`,
+                thumbnail: "imgs/esther.png"
+            },
+
+
+
+
+
+            
             // 1
             {
                 title: "Nesting",
@@ -20,17 +97,6 @@ const App = {
                             to illustrate how I am made up of these artistic expressions, and how I have built a protective space in art 
                             for myself.`,
                 thumbnail: "imgs/mara.png"
-            },
-
-            // 2
-
-            {
-                title: "Withered",
-                author: "Bronte Mayot",
-                description: `Multimedia work containing dried-up rose metals, digital illustrations on watercolour paper / 8.5 x 11 
-                            ——— This work is inspired by the concepts of decay and death, through the imagery of flowers as 
-                            storytellers to symbolize the passage of time.`,
-                thumbnail: "imgs/bronte.png"
             },
 
             // 3
@@ -73,14 +139,7 @@ const App = {
                 thumbnail: "imgs/maia.png"
             },
 
-            // 7
-            {
-                title: "Leave my body behind, I'll take the rest",
-                author: "Charlotte Heron",
-                description: `Paper, Epson printer, Brother cut and scan / 5.5 in x 9.5 in x 0.5 in 
-                            ——— A non linear story about an ever changing relationship to self, gender and womanhood--- it gives just as much as it takes.`,
-                thumbnail: "imgs/charlotte.png"
-            },
+            
 
             // 8
             {
@@ -93,15 +152,6 @@ const App = {
                 thumbnail: "imgs/yeemon.png"
             },
 
-            // 9
-            {
-                title: "VO₂ Peak Research Study",
-                author: "Amber Forno",
-                description: `Full Title: VO₂ Peak Research Study: Moderate-Intensity Continuous Training, Participant 00489 / etchings on paper, 
-                            bound as an artist book / 10.75” x 7.75” x 1.25”`,
-                thumbnail: "imgs/amber.png"
-            },
-
             // 10
             {
                 title: "Don't cry ",
@@ -110,40 +160,6 @@ const App = {
                             ——— I wanted to play with the idea of permanence with a medium that is not meant to last forever. I have also recently 
                             broken my mirror into smithereens and failed.`,
                 thumbnail: "imgs/sabrina.png"
-            },
-
-            // 11
-            {
-                title: "Eldest Daughter",
-                author: "Esther Chai",
-                description: `Ink  Scraps of paper from magazines / 7" x 11" (LxW)
-                            ——— For every eldest daughter who had to grow up too soon.`,
-                thumbnail: "imgs/esther.png"
-            },
-
-            // 12
-            {
-                title: "Drowning in my elementary school swimming pool",
-                author: "Amelia Doty",
-                description: `Pen and marker on paper with Lino cut and print / 7inches x 7inches
-                            ——— A poetry book that follows the development of shame through a young girls life.`,
-                thumbnail: "imgs/amelia.png"
-            },
-
-            // 13
-            {
-                title: "Dead Skin",
-                author: "Charlie Saltzman",
-                description: ``,
-                thumbnail: "imgs/charlie.png"
-            },
-
-            // 14
-            {
-                title: "Canadian Passport",
-                author: "Chris Yanes- Alvarenga",
-                description: ``,
-                thumbnail: "imgs/chris.png"
             },
 
             // 15
@@ -161,14 +177,6 @@ const App = {
                 description: `Textiles / 4 in x 4 in
                             ——— Depiction of wasting time using a repeated image and tule overlays to represent the passage of time through light.`,
                 thumbnail: "imgs/georgina.png"
-            },
-
-            // 17
-            {
-                title: "Passing",
-                author: ", Ace Zadvorny ",
-                description: ``,
-                thumbnail: "imgs/ace.png"
             },
 
 
