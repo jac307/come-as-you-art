@@ -89,7 +89,7 @@ const App = {
                 description: `Paper, Ink / 5"x3.5"x0.5"
                             ——— Dear Diary is a black-and-white illustrated diary that traces the emotional aftermath of a breakup over time. Each
                             entry is a different stage of grief, shifting in voice, composition, and visual intensity as the narrator moves from shock 
-                            to acceptance. `,
+                            to acceptance.`,
                 thumbnail: "imgs/yeemon.png"
             },
 
@@ -107,7 +107,8 @@ const App = {
                 title: "Don't cry ",
                 author: "Sabrina Vachon",
                 description: `Print, flower metal / 2x4 inches
-                            ——— I wanted to play with the idea of permanence with a medium that is not meant to last forever. I have also recently broken my mirror into smithereens and failed.`,
+                            ——— I wanted to play with the idea of permanence with a medium that is not meant to last forever. I have also recently 
+                            broken my mirror into smithereens and failed.`,
                 thumbnail: "imgs/sabrina.png"
             },
 
@@ -140,9 +141,34 @@ const App = {
             // 14
             {
                 title: "Canadian Passport",
-                author: "Chris",
+                author: "Chris Yanes- Alvarenga",
                 description: ``,
                 thumbnail: "imgs/chris.png"
+            },
+
+            // 15
+            {
+                title: "Kiss and Tell",
+                author: "Islay Pearson-Whear",
+                description: ``,
+                thumbnail: "imgs/islay.png"
+            },
+
+            // 16
+            {
+                title: "Wasting Light",
+                author: "Georgina Farrow",
+                description: `Textiles / 4 in x 4 in
+                            ——— Depiction of wasting time using a repeated image and tule overlays to represent the passage of time through light.`,
+                thumbnail: "imgs/georgina.png"
+            },
+
+            // 17
+            {
+                title: "Passing",
+                author: ", Ace Zadvorny ",
+                description: ``,
+                thumbnail: "imgs/ace.png"
             },
 
 
