@@ -100,6 +100,14 @@ const App = {
 
             // 11
             {
+                title: "",
+                author: "Logan",
+                description: ``,
+                thumbnail: "imgs/logan.png"
+            },
+
+            // 12
+            {
                 title: "You need to wake up Kevin",
                 author: "Kevin Wu",
                 description: `I used the color markers to color it. And then made a book by folding the paper. Then put it in the box. 
@@ -108,7 +116,7 @@ const App = {
                 thumbnail: "imgs/kevin.png"
             },
 
-            // 12
+            // 13
             {
                 title: "Swampy Ditches",
                 author: "Maia Venturelli Golba",
@@ -118,7 +126,7 @@ const App = {
                 thumbnail: "imgs/maia.png"
             },
 
-            // 13
+            // 14
             {
                 title: "Nesting",
                 author: "Mara Sanders",
@@ -131,7 +139,7 @@ const App = {
                 thumbnail: "imgs/mara.png"
             },
 
-            // 14
+            // 15
             {
                 title: "Blue Gill’s Descent - Journal #2",
                 author: "Rowan van Oosten",
@@ -141,7 +149,7 @@ const App = {
                 thumbnail: "imgs/rowan.png"
             },
 
-            // 15
+            // 16
             {
                 title: "Don't cry ",
                 author: "Sabrina Vachon",
@@ -151,16 +159,16 @@ const App = {
                 thumbnail: "imgs/sabrina.png"
             },
 
-            // 16
+            // 17
             {
                 title: "Bedtime",
                 author: "Tristan Zadvorny",
                 description: `I used coloured pencils and acrylic wash on regular card paper / 4.5 x 6 
                             ——— My work is inspired by the novelty of going to bed, and sleeping`,
-                thumbnail: "imgs/tristen.png"
+                thumbnail: "imgs/tristan.png"
             },
 
-            // 17
+            // 18
             {
                 title: "Dear Diary",
                 author: "Yeemon",
