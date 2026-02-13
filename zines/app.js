@@ -14,11 +14,11 @@ const App = {
                 title: "Nesting",
                 author: "Mara Sanders",
                 description: `Watercolour on paper, fabric, thread, graphite on paper / 13" x 2" x 10" 
-                            ——— To reflect on the idea of a 'time based' narrative, 
-                            I wanted to look  at my own artistic practice and use of media. Knitting, sewing, and watercolour 
-                            paintings are what began my art practice early in my childhood, and have been constant materials 
-                            I have reached for in the years since. By integrating these mediums, I wanted to illustrate how I am 
-                            made up of these artistic expressions, and how I have built a protective space in art for myself.`,
+                            ——— To reflect on the idea of a 'time based' narrative, I wanted to look at my own artistic practice and use 
+                            of media. Knitting, sewing, and watercolour paintings are what began my art practice early in my childhood, 
+                            and have been constant materials I have reached for in the years since. By integrating these mediums, I wanted 
+                            to illustrate how I am made up of these artistic expressions, and how I have built a protective space in art 
+                            for myself.`,
                 thumbnail: "imgs/mara.png"
             },
 
@@ -68,7 +68,8 @@ const App = {
                 title: "Swampy Ditches",
                 author: "Maia Venturelli Golba",
                 description: `Harvesting in the 905 Watercolour/Acrylic paint and Photo collage / 59 X 11 
-                            ——— Inspired by the real harvest records of a local Hamilton farm, Harvesting in the 905 divides time through different vegetables harvested in seasons.”`,
+                            ——— Inspired by the real harvest records of a local Hamilton farm, Harvesting in the 905 divides time through different 
+                            vegetables harvested in seasons.”`,
                 thumbnail: "imgs/maia.png"
             },
 
@@ -96,7 +97,8 @@ const App = {
             {
                 title: "VO₂ Peak Research Study",
                 author: "Amber Forno",
-                description: `Full Title: VO₂ Peak Research Study: Moderate-Intensity Continuous Training, Participant 00489 / etchings on paper, bound as an artist book / 10.75” x 7.75” x 1.25”`,
+                description: `Full Title: VO₂ Peak Research Study: Moderate-Intensity Continuous Training, Participant 00489 / etchings on paper, 
+                            bound as an artist book / 10.75” x 7.75” x 1.25”`,
                 thumbnail: "imgs/amber.png"
             },
 
@@ -133,6 +135,14 @@ const App = {
                 author: "Charlie Saltzman",
                 description: ``,
                 thumbnail: "imgs/charlie.png"
+            },
+
+            // 14
+            {
+                title: "Canadian Passport",
+                author: "Chris",
+                description: ``,
+                thumbnail: "imgs/chris.png"
             },
 
 
