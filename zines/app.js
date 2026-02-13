@@ -81,12 +81,44 @@ const App = {
                 thumbnail: "imgs/esther.png"
             },
 
+             // 9
+            {
+                title: "Wasting Light",
+                author: "Georgina Farrow",
+                description: `Textiles / 4 in x 4 in
+                            ——— Depiction of wasting time using a repeated image and tule overlays to represent the passage of time through light.`,
+                thumbnail: "imgs/georgina.png"
+            },
 
+            // 10
+            {
+                title: "Kiss and Tell",
+                author: "Islay Pearson-Whear",
+                description: ``,
+                thumbnail: "imgs/islay.png"
+            },
 
+            // 11
+            {
+                title: "You need to wake up Kevin",
+                author: "Kevin Wu",
+                description: `I used the color markers to color it. And then made a book by folding the paper. Then put it in the box. 
+                            ——— My work was inspired by the fact that I slept for a whole day last week and realized how quickly time passes. I need to cherish time . I created this 
+                            book made up of ancient Chinese clocks and Western clock numbers.`,
+                thumbnail: "imgs/kevin.png"
+            },
 
+            // 12
+            {
+                title: "Swampy Ditches",
+                author: "Maia Venturelli Golba",
+                description: `Harvesting in the 905 Watercolour/Acrylic paint and Photo collage / 59 X 11 
+                            ——— Inspired by the real harvest records of a local Hamilton farm, Harvesting in the 905 divides time through different 
+                            vegetables harvested in seasons.”`,
+                thumbnail: "imgs/maia.png"
+            },
 
-            
-            // 1
+            // 13
             {
                 title: "Nesting",
                 author: "Mara Sanders",
@@ -99,16 +131,7 @@ const App = {
                 thumbnail: "imgs/mara.png"
             },
 
-            // 3
-            {
-                title: "Bedtime",
-                author: "Tristan Zadvorny",
-                description: `I used coloured pencils and acrylic wash on regular card paper / 4.5 x 6 
-                            ——— My work is inspired by the novelty of going to bed, and sleeping`,
-                thumbnail: "imgs/tristen.png"
-            },
-
-            // 4
+            // 14
             {
                 title: "Blue Gill’s Descent - Journal #2",
                 author: "Rowan van Oosten",
@@ -118,41 +141,7 @@ const App = {
                 thumbnail: "imgs/rowan.png"
             },
 
-
-            // 5
-            {
-                title: "You need to wake up Kevin",
-                author: "Kevin Wu",
-                description: `I used the color markers to color it. And then made a book by folding the paper. Then put it in the box. 
-                            ——— My work was inspired by the fact that I slept for a whole day last week and realized how quickly time passes. I need to cherish time . I created this 
-                            book made up of ancient Chinese clocks and Western clock numbers.`,
-                thumbnail: "imgs/kevin.png"
-            },
-
-            // 6
-            {
-                title: "Swampy Ditches",
-                author: "Maia Venturelli Golba",
-                description: `Harvesting in the 905 Watercolour/Acrylic paint and Photo collage / 59 X 11 
-                            ——— Inspired by the real harvest records of a local Hamilton farm, Harvesting in the 905 divides time through different 
-                            vegetables harvested in seasons.”`,
-                thumbnail: "imgs/maia.png"
-            },
-
-            
-
-            // 8
-            {
-                title: "Dear Diary",
-                author: "Yeemon",
-                description: `Paper, Ink / 5"x3.5"x0.5"
-                            ——— Dear Diary is a black-and-white illustrated diary that traces the emotional aftermath of a breakup over time. Each
-                            entry is a different stage of grief, shifting in voice, composition, and visual intensity as the narrator moves from shock 
-                            to acceptance.`,
-                thumbnail: "imgs/yeemon.png"
-            },
-
-            // 10
+            // 15
             {
                 title: "Don't cry ",
                 author: "Sabrina Vachon",
@@ -162,21 +151,24 @@ const App = {
                 thumbnail: "imgs/sabrina.png"
             },
 
-            // 15
-            {
-                title: "Kiss and Tell",
-                author: "Islay Pearson-Whear",
-                description: ``,
-                thumbnail: "imgs/islay.png"
-            },
-
             // 16
             {
-                title: "Wasting Light",
-                author: "Georgina Farrow",
-                description: `Textiles / 4 in x 4 in
-                            ——— Depiction of wasting time using a repeated image and tule overlays to represent the passage of time through light.`,
-                thumbnail: "imgs/georgina.png"
+                title: "Bedtime",
+                author: "Tristan Zadvorny",
+                description: `I used coloured pencils and acrylic wash on regular card paper / 4.5 x 6 
+                            ——— My work is inspired by the novelty of going to bed, and sleeping`,
+                thumbnail: "imgs/tristen.png"
+            },
+
+            // 17
+            {
+                title: "Dear Diary",
+                author: "Yeemon",
+                description: `Paper, Ink / 5"x3.5"x0.5"
+                            ——— Dear Diary is a black-and-white illustrated diary that traces the emotional aftermath of a breakup over time. Each
+                            entry is a different stage of grief, shifting in voice, composition, and visual intensity as the narrator moves from shock 
+                            to acceptance.`,
+                thumbnail: "imgs/yeemon.png"
             },
 
 
